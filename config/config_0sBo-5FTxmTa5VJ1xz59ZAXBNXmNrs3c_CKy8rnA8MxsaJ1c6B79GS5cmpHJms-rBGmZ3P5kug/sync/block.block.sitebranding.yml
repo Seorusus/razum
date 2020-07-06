@@ -1,0 +1,25 @@
+uuid: c0536794-d60e-46a9-8369-911bc752d775
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: EeWG6y6XarAOlypjBz2NbcdhA8yEPF2O4op_LIKpFEo
+id: sitebranding
+theme: droopler_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

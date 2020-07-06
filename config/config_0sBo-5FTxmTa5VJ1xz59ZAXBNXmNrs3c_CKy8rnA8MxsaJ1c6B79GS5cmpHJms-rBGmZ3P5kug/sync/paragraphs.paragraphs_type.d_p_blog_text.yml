@@ -1,0 +1,12 @@
+uuid: 5b411010-53ca-410d-8e46-a52c855f5076
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SbLmvMjs1cL_Bu2M7LQq9fTcA0wJ5-g24kfN5NiXgBU
+id: d_p_blog_text
+label: 'Blog text'
+icon_uuid: null
+icon_default: null
+description: 'A text inside a blog post.'
+behavior_plugins: {  }

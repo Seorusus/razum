@@ -1,0 +1,16 @@
+uuid: 47dbf1db-ade1-45b6-b312-cdb5422d741b
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HqWcQ95GiuBxR_8Hx_eRv1ZLOvMGfO2mjsSgBr5vHOw
+id: d_document
+label: Документ
+description: 'Document added from file.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: field_media_file

@@ -1,0 +1,169 @@
+uuid: edef2797-cf53-4171-a93e-62c4e02fea3e
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uWch3KlLj8tjmXdshg9OlycfDYIiVwIYIGSjs0oLU_U
+id: parser_themes
+label: 'Parser themes'
+start_url: 'https://ua.kompass.com/a/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0-%D0%BA-%D1%81%D0%B5%D1%82%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B8%D0%B4%D0%B5%D1%80%D0%BE%D0%B2-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82/5793004/'
+test_url: 'https://ua.kompass.com/a/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0-%D0%BA-%D1%81%D0%B5%D1%82%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D'
+check_code: 'return ($doc->find(''.product-list-data'')->length() > 0);'
+depth: 1
+white_list: ''
+black_list: "*.jpg\r\n*.png\r\n*.gif\r\n*.zip\r\n*.rar\r\n*.pdf\r\n*.doc\r\n*.xls\r\n*.txt"
+entity_type: node
+bundle: contact
+codes:
+  remote_id:
+    code: 'return $doc->find(''h2'')->text();'
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  nid:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  uuid:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  vid:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  langcode:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  type:
+    code: ''
+    reference_create: 0
+    reference: node_type
+    isMulti: ''
+  revision_timestamp:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  revision_uid:
+    code: ''
+    reference_create: 0
+    reference: user
+    isMulti: ''
+  revision_log:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  status:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  uid:
+    code: ''
+    reference_create: 0
+    reference: user
+    isMulti: ''
+  title:
+    code: 'return $doc->find(''h2'')->text();'
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  created:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  changed:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  promote:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  sticky:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  default_langcode:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  revision_default:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  revision_translation_affected:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  metatag:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  path:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  menu_link:
+    code: ''
+    reference_create: 0
+    reference: menu_link_content
+    isMulti: ''
+  content_translation_source:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  content_translation_outdated:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  body:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  field_email:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  field_telephone:
+    code: 'return $doc->find(''.coordonneesItemLink .phoneCompany .showMobile'')->(''freePhoneNumber'')->text();'
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+  field_web_site:
+    code: ''
+    reference_create: 0
+    reference: ''
+    isMulti: ''
+settings:
+  parse_limit: '90'
+  sleep: ''
+  only_this_domen: 1
+  save_url: 1
+  no_update: 0
+  list_mode: 1
+  list_code: "$elements = [];\r\nforeach ($doc->find('.node') as $element) {\r\n  $elements[] = pq($element);\r\n}\r\nreturn $elements;"
+  init_code: ''
+  prepare_code: ''
+use_sitemap: false
+sitemap: ''

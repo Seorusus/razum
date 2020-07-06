@@ -1,0 +1,22 @@
+uuid: ffd60035-1802-47d0-9279-1a12b23daafc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+_core:
+  default_config_hash: vnRkMcwQTkJGOfTInHoy4hXqK4S_OGKQQXoa57FqG90
+id: paragraph.field_d_node_reference
+field_name: field_d_node_reference
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

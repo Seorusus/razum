@@ -1,0 +1,10 @@
+uuid: 89f6ca0e-c83b-4328-91ae-110c790736a9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - d_p_subscribe_file
+id: SubscribeFileEntity.token
+label: Token
+targetEntityType: SubscribeFileEntity
+cache: true

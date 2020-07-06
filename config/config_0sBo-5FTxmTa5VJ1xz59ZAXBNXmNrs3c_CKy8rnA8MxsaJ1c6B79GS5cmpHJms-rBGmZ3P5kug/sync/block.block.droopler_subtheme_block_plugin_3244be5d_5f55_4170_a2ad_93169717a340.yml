@@ -1,0 +1,26 @@
+uuid: 93d01a59-ea65-4280-874b-6b31e765257d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bottom-footer-menu
+  module:
+    - system
+  theme:
+    - droopler_subtheme
+id: droopler_subtheme_block_plugin_3244be5d_5f55_4170_a2ad_93169717a340
+theme: droopler_subtheme
+region: footer_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:bottom-footer-menu'
+settings:
+  id: 'system_menu_block:bottom-footer-menu'
+  label: 'Bottom footer menu'
+  provider: system_menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+  status: true
+visibility: {  }

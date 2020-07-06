@@ -1,0 +1,12 @@
+uuid: bd36d237-0075-4985-91cf-4a3cb7e9aa20
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vQHKjwjA3TKwz2ivVBmvypDImO4l60A4bmV7hbxtheE
+id: d_p_side_image
+label: 'Sidebar image'
+icon_uuid: null
+icon_default: null
+description: 'Background image on one side, text on the other side.'
+behavior_plugins: {  }

@@ -1,0 +1,12 @@
+uuid: 4c3958b8-b1fe-4f82-968a-dedd0323e2e4
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 92bXZdyYJ5xqukdfmGRr_CYcwm1vfuS8b8aJ7X_G7E0
+id: taxonomy_term
+label: 'Термин таксономии'
+tags:
+  canonical_url: '[term:url]'
+  description: '[term:description]'
+  title: '[term:name] | [site:name]'

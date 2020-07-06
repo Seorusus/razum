@@ -1,0 +1,4 @@
+content:
+  field_d_p_sf_consent:
+    settings:
+      placeholder: 'Enter consent label (HTML is allowed).'

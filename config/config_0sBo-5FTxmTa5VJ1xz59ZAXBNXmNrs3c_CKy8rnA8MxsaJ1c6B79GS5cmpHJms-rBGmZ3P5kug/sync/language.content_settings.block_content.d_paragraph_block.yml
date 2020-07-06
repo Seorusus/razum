@@ -1,0 +1,13 @@
+uuid: c205f45b-caf8-488b-a1d2-f2d3263d97c2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+_core:
+  default_config_hash: EcakqDx5ecirEapEpdwhmUk0pqOqyKPka_lyc6Ls14s
+id: block_content.d_paragraph_block
+target_entity_type_id: block_content
+target_bundle: d_paragraph_block
+default_langcode: site_default
+language_alterable: false

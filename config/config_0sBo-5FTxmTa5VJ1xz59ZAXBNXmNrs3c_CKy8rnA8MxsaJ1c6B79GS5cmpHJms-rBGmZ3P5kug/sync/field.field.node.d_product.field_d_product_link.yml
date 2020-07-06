@@ -1,0 +1,30 @@
+uuid: 99b48cc5-b95a-46e0-817d-6251187b73f2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_d_product_link
+    - node.type.d_product
+  module:
+    - link
+_core:
+  default_config_hash: nqqCtj50VH6PnJ9EMyfIm7y6qsqjxJOG_mXHGfJOFxo
+id: node.d_product.field_d_product_link
+field_name: field_d_product_link
+entity_type: node
+bundle: d_product
+label: 'Product link'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://droopler.com/download'
+    title: 'Buy Now'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

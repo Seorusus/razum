@@ -1,0 +1,4 @@
+label: 'Paragraph width'
+settings:
+  on_label: 'Image is on the full width of the screen'
+  off_label: 'Image is on the width of the text'

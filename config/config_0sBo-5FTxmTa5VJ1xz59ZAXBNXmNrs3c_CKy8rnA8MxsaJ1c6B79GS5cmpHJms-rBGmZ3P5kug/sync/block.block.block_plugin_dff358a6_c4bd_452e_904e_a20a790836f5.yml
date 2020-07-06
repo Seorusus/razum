@@ -1,0 +1,21 @@
+uuid: 1bfeef01-d70c-4035-885e-907246eb4d3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - d_social_media
+  theme:
+    - droopler_theme
+id: block_plugin_dff358a6_c4bd_452e_904e_a20a790836f5
+theme: droopler_theme
+region: footer_sixth
+weight: 0
+provider: null
+plugin: social_media_block
+settings:
+  id: social_media_block
+  label: 'Follow us'
+  provider: d_social_media
+  label_display: '1'
+  status: true
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: e3ac2ec5-c9e2-4a9d-a260-2ea8f24839fc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_layout_modifier
+    - paragraphs.paragraphs_type.d_p_form
+  module:
+    - options
+_core:
+  default_config_hash: 3HVmWOaiiZLmdA3-qAoIXinPvK9XOJ27rIO_jNuekhc
+id: paragraph.d_p_form.field_d_layout_modifier
+field_name: field_d_layout_modifier
+entity_type: paragraph
+bundle: d_p_form
+label: 'Form layout'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: bottom
+default_value_callback: ''
+settings: {  }
+field_type: list_string

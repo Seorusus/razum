@@ -1,0 +1,25 @@
+uuid: 1e5cbc2a-bcc9-427c-89a5-da3514e0dcf5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - facets.facet.tags_taxonomy_term_name
+  module:
+    - facets
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: NCY1nDMtaCZ_CZxSevIls5PQawBW64lwdGddav3RrtY
+id: tagstaxonomytermname
+theme: droopler_theme
+region: facets_left
+weight: -4
+provider: null
+plugin: 'facet_block:tags_taxonomy_term_name'
+settings:
+  id: 'facet_block:tags_taxonomy_term_name'
+  label: 'Теги:'
+  provider: facets
+  label_display: visible
+  block_id: tagstaxonomytermname
+visibility: {  }

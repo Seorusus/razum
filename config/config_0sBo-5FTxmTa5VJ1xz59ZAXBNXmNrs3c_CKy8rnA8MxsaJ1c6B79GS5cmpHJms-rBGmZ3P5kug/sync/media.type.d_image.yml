@@ -1,0 +1,16 @@
+uuid: 6e73b285-06a4-4214-9d7b-71ab5d6e9cb3
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fwlCA2QxPCZEMTrGL_OgarR2eWFXIds1afP4kyiCisE
+id: d_image
+label: Изображение
+description: 'A simple image added from a file.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

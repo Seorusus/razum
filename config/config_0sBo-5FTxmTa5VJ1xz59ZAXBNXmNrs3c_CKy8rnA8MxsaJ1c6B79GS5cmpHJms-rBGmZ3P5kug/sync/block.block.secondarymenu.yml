@@ -1,0 +1,25 @@
+uuid: a92cab42-db4e-4c98-8384-d0288fb9094a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - droopler_subtheme
+id: secondarymenu
+theme: droopler_subtheme
+region: secondary_menu
+weight: -11
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

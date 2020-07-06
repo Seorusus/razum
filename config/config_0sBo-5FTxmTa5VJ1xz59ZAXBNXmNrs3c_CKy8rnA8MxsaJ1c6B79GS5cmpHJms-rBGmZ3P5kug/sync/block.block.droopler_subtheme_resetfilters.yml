@@ -1,0 +1,26 @@
+uuid: 4ca30975-5c0a-4fa8-b7a9-7dbb8869a61f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - d_product
+  theme:
+    - droopler_subtheme
+_core:
+  default_config_hash: uMa3oQ0wBTj9mRPJUIeAerP4dC-C-qFSxbFSt8yVJZI
+id: droopler_subtheme_resetfilters
+theme: droopler_subtheme
+region: facets_left
+weight: -6
+provider: null
+plugin: reset_button
+settings:
+  id: reset_button
+  label: Filters
+  provider: d_product
+  label_display: visible
+  button_text: 'Reset Filters'
+  button_class: 'btn btn-outline-primary btn-sm btn-reset'
+  button_target: /products
+  button_icon_class: 'fas fa-times'
+visibility: {  }

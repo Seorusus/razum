@@ -1,0 +1,21 @@
+uuid: 3317a3d4-5115-4b1a-97ac-8656df5e407b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: jSOHA0ysOMdiMNk1aNFBNjKCE-Fxb_I6G-phYRPXBmw
+name: 'Пост блога'
+type: blog_post
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

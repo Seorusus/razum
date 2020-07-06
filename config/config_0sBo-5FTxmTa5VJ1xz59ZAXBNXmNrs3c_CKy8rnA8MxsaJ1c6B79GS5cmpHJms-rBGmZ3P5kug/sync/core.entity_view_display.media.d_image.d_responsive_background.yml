@@ -1,0 +1,37 @@
+uuid: aa65b19a-8d1f-4490-b66c-7e15578d4ade
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.d_responsive_background
+    - field.field.media.d_image.field_media_image
+    - media.type.d_image
+    - responsive_image.styles.responsive_background
+  module:
+    - lazy
+    - responsive_image
+_core:
+  default_config_hash: fiWl9Q6TzBC73mujL_M8ubeSysC1wXLO19s1jEvoRnw
+id: media.d_image.d_responsive_background
+targetEntityType: media
+bundle: d_image
+mode: d_responsive_background
+content:
+  field_media_image:
+    weight: 0
+    label: hidden
+    settings:
+      responsive_image_style: responsive_background
+      image_link: ''
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+    type: responsive_image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,32 @@
+display:
+  default:
+    display_title: Головне
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Застосувати
+          reset_button_label: Скинути
+          exposed_sorts_label: 'Впорядкувати за'
+          sort_asc_label: Зрост
+          sort_desc_label: Спад
+          text_input_required: 'Щоб побачити результат, виберіть довільний фільтр і натисніть "Застосувати"'
+          bef:
+            general:
+              secondary_label: 'Розширені параметри'
+            sort:
+              advanced:
+                collapsible_label: 'Параметри впорядкування'
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« Перша'
+            last: 'Остання »'
+          expose:
+            items_per_page_label: 'Елементів на сторінку'
+            items_per_page_options_all_label: '- Усе -'
+            offset_label: Зміщення
+      title: Товари
+  products_list:
+    display_title: Товари

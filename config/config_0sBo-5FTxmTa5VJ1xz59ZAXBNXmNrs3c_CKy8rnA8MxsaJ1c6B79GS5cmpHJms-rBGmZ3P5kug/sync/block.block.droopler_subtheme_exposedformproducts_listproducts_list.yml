@@ -1,0 +1,25 @@
+uuid: b16ca380-4791-4b30-acba-e0f718a7ee0c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.products_list
+  module:
+    - views
+  theme:
+    - droopler_subtheme
+_core:
+  default_config_hash: uFp2jWeXaY7wskQpaEvEkdcYKnQTCWyII1CtAex3blg
+id: droopler_subtheme_exposedformproducts_listproducts_list
+theme: droopler_subtheme
+region: facets_top
+weight: -5
+provider: null
+plugin: 'views_exposed_filter_block:products_list-products_list'
+settings:
+  id: 'views_exposed_filter_block:products_list-products_list'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

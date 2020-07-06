@@ -1,0 +1,2 @@
+label: 'Number of columns'
+description: 'Number of layout columns to show in a row within the viewport. Possible values: 1, 2, 3, 4, 6, 12.'

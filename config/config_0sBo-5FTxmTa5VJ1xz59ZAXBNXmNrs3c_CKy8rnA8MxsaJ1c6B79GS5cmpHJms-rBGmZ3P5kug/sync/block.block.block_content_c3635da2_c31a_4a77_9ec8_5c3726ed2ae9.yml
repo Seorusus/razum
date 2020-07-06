@@ -1,0 +1,25 @@
+uuid: 3cac7c66-d928-45df-b7f7-24b6578f34a2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:c3635da2-c31a-4a77-9ec8-5c3726ed2ae9'
+  module:
+    - block_content
+  theme:
+    - droopler_theme
+id: block_content_c3635da2_c31a_4a77_9ec8_5c3726ed2ae9
+theme: droopler_theme
+region: footer_first
+weight: 1
+provider: null
+plugin: 'block_content:c3635da2-c31a-4a77-9ec8-5c3726ed2ae9'
+settings:
+  id: 'block_content:c3635da2-c31a-4a77-9ec8-5c3726ed2ae9'
+  label: 'Footer Office 2'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

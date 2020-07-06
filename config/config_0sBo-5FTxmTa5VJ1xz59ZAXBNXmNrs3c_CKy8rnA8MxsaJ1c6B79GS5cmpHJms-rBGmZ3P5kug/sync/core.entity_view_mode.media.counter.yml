@@ -1,0 +1,12 @@
+uuid: ffc1f4ac-c640-44d3-ab80-984f81a1f66b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: aqSMz0JpOm4rS_N_fWjnJvWMZrQu9Pcs35LJ92TbGrw
+id: media.counter
+label: Счётчик
+targetEntityType: media
+cache: true

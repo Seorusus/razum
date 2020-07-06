@@ -1,0 +1,12 @@
+uuid: 749db183-cbee-484d-8f0d-176a19d41f48
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 4bWYX7aQyveXIE-cBSeWwmAlN0Q_p5b_1Ml88xlMniM
+id: media.token
+label: Токен
+targetEntityType: media
+cache: true

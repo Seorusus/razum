@@ -1,0 +1,9 @@
+third_party_settings:
+  field_group:
+    group_seo:
+      label: 'Оптимізація для пошукових систем'
+content:
+  field_page_section:
+    settings:
+      title: Абзац
+      title_plural: Абзаци

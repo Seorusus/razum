@@ -1,0 +1,10 @@
+uuid: af9b175b-b5e1-42ea-afae-0649b3f2a8e2
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3wpuRoK1iXv6PjnJ4bZyMTqA34XEU099P8QV-LGF3Ds
+id: content_block
+label: 'Content block'
+revision: 0
+description: ''

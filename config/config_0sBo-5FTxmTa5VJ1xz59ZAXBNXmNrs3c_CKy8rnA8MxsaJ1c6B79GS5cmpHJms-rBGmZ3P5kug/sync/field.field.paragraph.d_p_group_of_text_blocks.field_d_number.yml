@@ -1,0 +1,27 @@
+uuid: f533e219-2392-4825-932a-f1221438a11e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_number
+    - paragraphs.paragraphs_type.d_p_group_of_text_blocks
+_core:
+  default_config_hash: 4LP0DELRSURZ9RHRFYgKtwzMJOkCFFnZVkksRDXf0dc
+id: paragraph.d_p_group_of_text_blocks.field_d_number
+field_name: field_d_number
+entity_type: paragraph
+bundle: d_p_group_of_text_blocks
+label: 'Количество столбцов'
+description: 'You can use 1, 2, 3, 4, 6 and 12 columns.'
+required: true
+translatable: true
+default_value:
+  -
+    value: 3
+default_value_callback: ''
+settings:
+  min: 1
+  max: 12
+  prefix: ''
+  suffix: ''
+field_type: integer

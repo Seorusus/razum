@@ -1,0 +1,13 @@
+uuid: feb67e60-8e55-421d-b149-c9be75a7851e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+_core:
+  default_config_hash: bykaHo4AxxmAaWgnFGtwtpQ-9CsyHqZN8MJ4jj-8z44
+id: taxonomy_term.d_product_categories
+target_entity_type_id: taxonomy_term
+target_bundle: d_product_categories
+default_langcode: site_default
+language_alterable: false

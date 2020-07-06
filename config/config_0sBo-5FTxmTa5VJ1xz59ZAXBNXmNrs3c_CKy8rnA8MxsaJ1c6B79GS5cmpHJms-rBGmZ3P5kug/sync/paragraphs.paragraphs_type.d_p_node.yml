@@ -1,0 +1,12 @@
+uuid: 1f009664-75cf-49e0-9dcb-f0b0e4f65d6d
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ifq_2Xoo_TLUcsdb0FaTGI627apQVqR4p_IoGscOBIE
+id: d_p_node
+label: Материал
+icon_uuid: null
+icon_default: null
+description: 'A node reference paragraph to use with "List of text blocks" and "Side by side".'
+behavior_plugins: {  }

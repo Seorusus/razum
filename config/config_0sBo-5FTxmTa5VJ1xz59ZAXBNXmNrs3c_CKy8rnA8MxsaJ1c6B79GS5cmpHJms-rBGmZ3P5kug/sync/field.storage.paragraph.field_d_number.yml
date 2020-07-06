@@ -1,0 +1,22 @@
+uuid: a2323c27-0709-4ce5-a288-94f19a90b05a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 4E1rVj7HqEpRFZh_tAPJiOy-a4qD-dbB9Q-L1DvsOoQ
+id: paragraph.field_d_number
+field_name: field_d_number
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

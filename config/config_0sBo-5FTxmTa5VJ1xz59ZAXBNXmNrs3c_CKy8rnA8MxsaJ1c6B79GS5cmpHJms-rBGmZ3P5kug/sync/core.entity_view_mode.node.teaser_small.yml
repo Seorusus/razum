@@ -1,0 +1,12 @@
+uuid: 6fabf05e-e20c-49ff-83cd-2f4537355fac
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bJAUwFYBTK8T0cqShID8TjRPEsr4Pn7kK4wLVyzW_5Y
+id: node.teaser_small
+label: 'Teaser small'
+targetEntityType: node
+cache: true

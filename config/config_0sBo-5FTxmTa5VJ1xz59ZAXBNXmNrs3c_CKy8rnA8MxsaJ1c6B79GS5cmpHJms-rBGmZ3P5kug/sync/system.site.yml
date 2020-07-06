@@ -1,0 +1,14 @@
+uuid: 05e59a37-cd0c-45a0-9d24-c209ec87fa33
+name: 'Razum Agency'
+mail: seorusus@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/10
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

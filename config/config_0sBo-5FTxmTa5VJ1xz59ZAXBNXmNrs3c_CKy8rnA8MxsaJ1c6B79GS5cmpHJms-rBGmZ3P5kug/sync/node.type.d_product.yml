@@ -1,0 +1,19 @@
+uuid: 5ffa0beb-c560-46b2-87b6-794bcda9b768
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 1pFR-9XVwXGHGYDWIVUR-qWr7RAex8kFEo9db7OVtbI
+name: Товар
+type: d_product
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: cb1e5dd7-11e2-40eb-831d-84095a079d5e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.contact
+id: node.contact.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: contact
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_d_block_background:
+      label: 'Block background'
+    group_d_block_content:
+      label: 'Block content'

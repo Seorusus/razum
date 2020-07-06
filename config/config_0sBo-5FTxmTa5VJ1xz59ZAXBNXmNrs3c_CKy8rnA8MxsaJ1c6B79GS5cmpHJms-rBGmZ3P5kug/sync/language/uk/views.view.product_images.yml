@@ -1,0 +1,21 @@
+label: 'Зображення товару'
+display:
+  default:
+    display_title: Головне
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Застосувати
+          reset_button_label: Скинути
+          exposed_sorts_label: 'Впорядкувати за'
+          sort_asc_label: Зрост
+          sort_desc_label: Спад
+      title: 'Зображення товару'
+      arguments:
+        nid:
+          exception:
+            title: Все
+  attachment_1:
+    display_title: Долучення
+  block_1:
+    display_title: Блок

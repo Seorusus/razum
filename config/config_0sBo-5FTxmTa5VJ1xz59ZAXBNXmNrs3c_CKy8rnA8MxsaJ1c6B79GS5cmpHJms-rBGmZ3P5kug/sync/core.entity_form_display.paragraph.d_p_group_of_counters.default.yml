@@ -1,0 +1,74 @@
+uuid: f698e946-3a30-43f1-acf3-baa1561bf6e2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.d_p_group_of_counters.field_d_counter_reference
+    - field.field.paragraph.d_p_group_of_counters.field_d_main_title
+    - field.field.paragraph.d_p_group_of_counters.field_d_media_background
+    - field.field.paragraph.d_p_group_of_counters.field_d_media_icon
+    - field.field.paragraph.d_p_group_of_counters.field_d_number
+    - field.field.paragraph.d_p_group_of_counters.field_d_settings
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+  module:
+    - d_p
+    - media_library
+    - paragraphs
+_core:
+  default_config_hash: gYWUdIgG5jmnFfkNVAvn2TF8P48H4kQxk9TzAYTN6_E
+id: paragraph.d_p_group_of_counters.default
+targetEntityType: paragraph
+bundle: d_p_group_of_counters
+mode: default
+content:
+  field_d_counter_reference:
+    type: entity_reference_paragraphs
+    weight: 6
+    settings:
+      title: Счётчик
+      title_plural: Счётчики
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: d_p_single_counter
+    third_party_settings: {  }
+    region: content
+  field_d_main_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_d_media_background:
+    weight: 4
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_d_media_icon:
+    weight: 1
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_d_number:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_d_settings:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: field_d_p_set_settings
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

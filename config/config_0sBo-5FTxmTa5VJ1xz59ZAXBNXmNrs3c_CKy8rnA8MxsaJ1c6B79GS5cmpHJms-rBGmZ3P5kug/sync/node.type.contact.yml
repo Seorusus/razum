@@ -1,0 +1,17 @@
+uuid: 9c1a4717-673a-4d76-9469-a955b2138043
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Контрагент
+type: contact
+description: 'Для парсинга'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

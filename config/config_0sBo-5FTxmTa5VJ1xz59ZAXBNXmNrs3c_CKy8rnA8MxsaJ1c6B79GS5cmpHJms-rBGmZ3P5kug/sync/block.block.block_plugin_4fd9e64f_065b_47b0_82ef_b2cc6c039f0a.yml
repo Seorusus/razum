@@ -1,0 +1,26 @@
+uuid: fc2bac41-66e8-4f25-b126-0a805482adbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - droopler_theme
+id: block_plugin_4fd9e64f_065b_47b0_82ef_b2cc6c039f0a
+theme: droopler_theme
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary menu'
+  provider: system_menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+  status: true
+visibility: {  }

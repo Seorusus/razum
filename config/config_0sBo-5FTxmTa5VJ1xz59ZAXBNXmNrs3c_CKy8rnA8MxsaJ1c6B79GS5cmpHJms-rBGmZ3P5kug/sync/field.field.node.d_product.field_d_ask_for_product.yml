@@ -1,0 +1,25 @@
+uuid: fc4f924f-6435-4497-af0c-d84d7ac40ad3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_d_ask_for_product
+    - node.type.d_product
+_core:
+  default_config_hash: zSRfA6hQKg2tB3kuYog4mLrpmlmU3wKYHuBLB8Qm3hI
+id: node.d_product.field_d_ask_for_product
+field_name: field_d_ask_for_product
+entity_type: node
+bundle: d_product
+label: 'Ask for product'
+description: 'Show Ask Button on product page with redirect to contact page.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

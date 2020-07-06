@@ -1,0 +1,25 @@
+uuid: b80e9536-1453-4599-a610-21fd6e86db50
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:content_block:98ea594f-b06a-4a6c-bc44-fb369284a9df'
+  module:
+    - block_content
+  theme:
+    - droopler_theme
+id: block_content_98ea594f_b06a_4a6c_bc44_fb369284a9df
+theme: droopler_theme
+region: header
+weight: null
+provider: null
+plugin: 'block_content:98ea594f-b06a-4a6c-bc44-fb369284a9df'
+settings:
+  id: 'block_content:98ea594f-b06a-4a6c-bc44-fb369284a9df'
+  label: ''
+  provider: block_content
+  label_display: visible
+  status: false
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: cb57266f-ee1e-43f3-9b7c-101197771800
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J8j2g5uJkqNJxW8eEskeMjlzVUcU3i8r2Eu79emZYwY
+id: d_p_text_paged
+label: 'Text page'
+icon_uuid: null
+icon_default: null
+description: 'A simple text paragraph.'
+behavior_plugins: {  }

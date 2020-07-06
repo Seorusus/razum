@@ -1,0 +1,12 @@
+uuid: aeb6c2a1-733a-46c5-9257-594adb909ae9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: zSzOcryBG_zeNT11nyZE0iOUVGBoaIVBgd03CgwNLso
+id: media.d_banner
+label: Баннер
+targetEntityType: media
+cache: true

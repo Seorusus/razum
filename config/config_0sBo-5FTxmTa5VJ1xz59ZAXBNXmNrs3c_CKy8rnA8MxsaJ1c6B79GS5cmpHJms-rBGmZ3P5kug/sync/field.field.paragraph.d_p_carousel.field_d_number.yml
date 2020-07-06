@@ -1,0 +1,25 @@
+uuid: e9b3ee9f-33d3-4e8d-b4f0-ccf59e528300
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_number
+    - paragraphs.paragraphs_type.d_p_carousel
+_core:
+  default_config_hash: QQzhi9xE-S3xJCIq7ggHQ6EFa7zDJy4LWGZ5oARYFxI
+id: paragraph.d_p_carousel.field_d_number
+field_name: field_d_number
+entity_type: paragraph
+bundle: d_p_carousel
+label: 'Количество столбцов'
+description: 'Number of layout columns to show in a row within the viewport. Possible values: 1, 2, 3, 4, 6, 12.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 12
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,38 @@
+uuid: 177e9600-4f78-492c-bbdf-7f756d5c3fb2
+langcode: ru
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 5vnFbKLHrVvvwkGO6pGdd5ZdpWy7xL-XNaEfWVqzk9o
+id: paragraph.field_d_p_si_image_side
+field_name: field_d_p_si_image_side
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: Слева
+    -
+      value: right
+      label: Справа
+    -
+      value: full
+      label: 'На всю длину'
+    -
+      value: left-wide
+      label: 'Left (wide)'
+    -
+      value: right-wide
+      label: 'Right (wide)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

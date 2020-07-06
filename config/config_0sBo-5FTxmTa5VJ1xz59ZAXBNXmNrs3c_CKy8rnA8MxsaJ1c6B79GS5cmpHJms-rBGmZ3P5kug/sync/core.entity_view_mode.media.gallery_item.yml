@@ -1,0 +1,12 @@
+uuid: 3f03e9cb-f554-464a-9d64-c0f688c26ab8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: RUKLb4wz4nx6eW64SmjRE0Jkn_Rq9KefNfCJlntCTiw
+id: media.gallery_item
+label: 'Gallery Item'
+targetEntityType: media
+cache: true

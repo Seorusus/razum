@@ -1,0 +1,12 @@
+uuid: c6bcb9f2-195f-45fb-9cb8-0e2b52d77b60
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: nacZdkWEKejm3wzTlimlr6W6F9-AKCG5uIiK8WvrLJw
+id: media.d_product_image
+label: 'Product image'
+targetEntityType: media
+cache: true

@@ -1,0 +1,32 @@
+uuid: 776aa738-6e6b-4b25-9665-18503f6d49cb
+langcode: ru
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: PxXXaoIoSLPs7bjPBTh101Qi-js0cczsb_nOuIYUnfs
+id: paragraph.field_d_layout_modifier
+field_name: field_d_layout_modifier
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: Слева
+    -
+      value: right
+      label: Справа
+    -
+      value: bottom
+      label: Снизу
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

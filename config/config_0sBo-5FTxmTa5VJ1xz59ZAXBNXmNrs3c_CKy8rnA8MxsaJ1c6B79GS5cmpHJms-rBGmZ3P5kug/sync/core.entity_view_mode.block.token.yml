@@ -1,0 +1,12 @@
+uuid: 7d34250d-7b57-421b-ae1a-6d56d7921955
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block
+_core:
+  default_config_hash: AJ4KPUipTz1VsDPfMT_D9pamgbfXUJBgvYVel4P1DHE
+id: block.token
+label: Токен
+targetEntityType: block
+cache: true

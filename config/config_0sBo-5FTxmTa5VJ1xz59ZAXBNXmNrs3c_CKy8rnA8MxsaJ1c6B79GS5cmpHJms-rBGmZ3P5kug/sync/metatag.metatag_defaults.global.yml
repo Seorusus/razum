@@ -1,0 +1,11 @@
+uuid: f74d6bc9-9707-4950-84ca-4247feee965e
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Глобальный
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'

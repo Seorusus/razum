@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_d_banner_content:
+      label: 'Banner content'
+    group_d_banner_background:
+      label: 'Banner background'

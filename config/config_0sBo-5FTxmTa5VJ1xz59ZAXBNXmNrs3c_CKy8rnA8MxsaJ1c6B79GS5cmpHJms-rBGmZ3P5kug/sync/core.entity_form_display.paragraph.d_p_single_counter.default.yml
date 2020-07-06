@@ -1,0 +1,43 @@
+uuid: 8f84841a-c5de-4aa5-b462-dcae73c65ffc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.d_p_single_counter.field_d_main_title
+    - field.field.paragraph.d_p_single_counter.field_d_number
+    - field.field.paragraph.d_p_single_counter.field_d_settings
+    - paragraphs.paragraphs_type.d_p_single_counter
+  module:
+    - d_p
+_core:
+  default_config_hash: CbDow97SD_OdUlCrqo3AfwmYiobiLWyU97aGZ5RW89Y
+id: paragraph.d_p_single_counter.default
+targetEntityType: paragraph
+bundle: d_p_single_counter
+mode: default
+content:
+  field_d_main_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: 'ie. Clients this year'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_d_number:
+    weight: 0
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_d_settings:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: field_d_p_set_settings
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

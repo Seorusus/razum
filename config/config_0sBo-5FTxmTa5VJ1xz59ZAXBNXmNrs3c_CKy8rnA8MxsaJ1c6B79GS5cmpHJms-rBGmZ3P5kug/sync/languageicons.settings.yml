@@ -1,0 +1,13 @@
+show_node: true
+show_block: true
+placement: replace
+size: 50x20
+path: 'modules/contrib/languageicons/flags/*.png'
+_core:
+  default_config_hash: cpiebjeL5BJQM1KnuVUE-HxHiY-5OM6jfuhD1-SLNU0
+langcode: ru
+show: null
+actions: null
+form_build_id: form-WV8AiEzhKhvMkQV59f5CXdVQBqbzUZv9bSry8cI9lv0
+form_token: 1vtHMss6K-CZYyfDkrO75STDvWqR4KrdQMxgEWFmCpg
+form_id: languageicons_settings

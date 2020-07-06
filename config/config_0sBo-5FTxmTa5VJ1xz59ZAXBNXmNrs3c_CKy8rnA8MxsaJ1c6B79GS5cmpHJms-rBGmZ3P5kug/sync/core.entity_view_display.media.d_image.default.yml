@@ -1,0 +1,39 @@
+uuid: 87f2c334-9415-41de-b64e-11c9d55c5a91
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.media.d_image.field_media_image
+    - media.type.d_image
+  module:
+    - lazy
+    - svg_image
+_core:
+  default_config_hash: TYkIU4atXnp0nsL2pmv2QdLj-mz_NLM9djpQqVDvbtE
+id: media.d_image.default
+targetEntityType: media
+bundle: d_image
+mode: default
+content:
+  field_media_image:
+    weight: 0
+    label: hidden
+    settings:
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+    type: image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

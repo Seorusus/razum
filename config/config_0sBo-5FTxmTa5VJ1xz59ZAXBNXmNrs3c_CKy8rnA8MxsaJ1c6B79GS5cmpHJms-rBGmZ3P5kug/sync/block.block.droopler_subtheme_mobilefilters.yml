@@ -1,0 +1,24 @@
+uuid: 81e95b02-bb91-4c18-a182-7363dc53ed05
+langcode: ru
+status: true
+dependencies:
+  module:
+    - d_product
+  theme:
+    - droopler_subtheme
+_core:
+  default_config_hash: zoF_YJKjB_yI0LtAyl5d_8OWdvulY656RkukBbhwNHw
+id: droopler_subtheme_mobilefilters
+theme: droopler_subtheme
+region: facets_top
+weight: -6
+provider: null
+plugin: mobile_filters
+settings:
+  id: mobile_filters
+  label: 'Mobile filters'
+  provider: d_product
+  label_display: '0'
+  button_text: Filters
+  button_class: 'btn btn-outline-primary'
+visibility: {  }

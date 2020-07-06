@@ -1,0 +1,12 @@
+uuid: b4e92f00-d772-453c-9763-33228255df18
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 1velf-eGYz8Udrz6n76zVcPNRpQpR8zmwOcJ3LKjAj4
+id: node.thumbnail
+label: Миниатюра
+targetEntityType: node
+cache: true

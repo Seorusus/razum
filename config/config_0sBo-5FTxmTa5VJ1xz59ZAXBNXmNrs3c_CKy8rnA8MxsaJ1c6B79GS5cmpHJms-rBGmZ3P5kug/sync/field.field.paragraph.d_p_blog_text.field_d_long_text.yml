@@ -1,0 +1,23 @@
+uuid: e653c282-a0de-43a2-99c1-62e3b4951aa6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_long_text
+    - paragraphs.paragraphs_type.d_p_blog_text
+  module:
+    - text
+_core:
+  default_config_hash: XWHp2DFn3xv1-uXjOF2NeKSqFOrg7cIObYHq6ipAeVs
+id: paragraph.d_p_blog_text.field_d_long_text
+field_name: field_d_long_text
+entity_type: paragraph
+bundle: d_p_blog_text
+label: 'Длинный текст'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

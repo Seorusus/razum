@@ -1,0 +1,8 @@
+uuid: 42fe8a2d-99cf-4ca4-aa3b-dfc73f14f797
+langcode: ru
+status: true
+dependencies: {  }
+id: bottom-footer-menu
+label: 'Bottom footer menu'
+description: 'Menu placed after footer'
+locked: false

@@ -1,0 +1,54 @@
+label: 'Subscribe file paragraph'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        id:
+          label: ID
+          separator: ', '
+        name:
+          label: Name
+          separator: ', '
+        mail:
+          label: Mail
+          separator: ', '
+        created:
+          label: Created
+          separator: ', '
+      filters:
+        mail:
+          expose:
+            label: Mail
+        name:
+          expose:
+            label: Name
+      title: 'File subscriptions'
+      header:
+        area_text_custom:
+          content: 'This is the list of all file subscriptions.'
+      empty:
+        area_text_custom:
+          content: 'No subscribed users yet.'
+  page_1:
+    display_title: Page
+    display_options:
+      menu:
+        title: 'Subscribe file paragraph'
+        description: 'Subscribe file paragraph'

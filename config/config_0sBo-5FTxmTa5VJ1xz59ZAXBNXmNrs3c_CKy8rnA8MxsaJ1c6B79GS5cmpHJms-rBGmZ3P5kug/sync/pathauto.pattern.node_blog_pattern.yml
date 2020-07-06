@@ -1,0 +1,24 @@
+uuid: a88c47ba-3f1d-4ba0-8056-00c6e4776373
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: XftzBSff_TeHeqYP9n0omxRCCYT-VMkZcLOZq7mFgEU
+id: node_blog_pattern
+label: node_blog_pattern
+type: 'canonical_entities:node'
+pattern: 'blog/[node:title]'
+selection_criteria:
+  607f77ea-c917-4177-860c-31ded5df3c9a:
+    id: node_type
+    bundles:
+      blog_post: blog_post
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 607f77ea-c917-4177-860c-31ded5df3c9a
+selection_logic: and
+weight: -5
+relationships: {  }

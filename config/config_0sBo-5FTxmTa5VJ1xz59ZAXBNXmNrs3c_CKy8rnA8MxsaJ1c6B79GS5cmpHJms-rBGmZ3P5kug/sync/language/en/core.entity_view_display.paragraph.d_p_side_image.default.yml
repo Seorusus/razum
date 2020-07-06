@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_d_side_image_background:
+      label: 'Side image background'
+    group_d_side_image_content:
+      label: 'Side image content'

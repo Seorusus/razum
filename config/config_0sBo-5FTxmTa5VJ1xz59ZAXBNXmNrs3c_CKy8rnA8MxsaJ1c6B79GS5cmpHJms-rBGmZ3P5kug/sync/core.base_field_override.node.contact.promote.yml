@@ -1,0 +1,22 @@
+uuid: 5a937f43-c463-4515-80b0-c983ebf0893f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.promote
+field_name: promote
+entity_type: node
+bundle: contact
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

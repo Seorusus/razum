@@ -1,0 +1,10 @@
+uuid: 652d5162-3660-4636-a0c7-93b11fd633f1
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cTIdYvK-agbwhuIfHA6LBjNC00CpLIwqwMO6ouyRyXE
+name: 'Product Categories'
+vid: d_product_categories
+description: ''
+weight: 0

@@ -1,0 +1,11 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_settings:
+      label: Налаштування
+content:
+  field_d_p_tb_block_reference:
+    settings:
+      title: Абзац
+      title_plural: Абзаци

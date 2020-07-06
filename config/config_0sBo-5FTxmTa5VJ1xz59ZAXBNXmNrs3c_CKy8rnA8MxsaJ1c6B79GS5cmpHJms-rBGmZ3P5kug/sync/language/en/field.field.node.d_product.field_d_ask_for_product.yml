@@ -1,0 +1,5 @@
+label: 'Ask for product'
+description: 'Show Ask Button on product page with redirect to contact page.'
+settings:
+  on_label: 'On'
+  off_label: 'Off'

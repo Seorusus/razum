@@ -1,0 +1,11 @@
+uuid: ff33c03c-0dfa-4feb-bce6-bd114d723715
+langcode: ru
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: GCxIH5xTUwVsb4Vo-JDmUHcq-Ye7ds-NYKw9tRDMLYA
+id: front
+label: 'Главная страница'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

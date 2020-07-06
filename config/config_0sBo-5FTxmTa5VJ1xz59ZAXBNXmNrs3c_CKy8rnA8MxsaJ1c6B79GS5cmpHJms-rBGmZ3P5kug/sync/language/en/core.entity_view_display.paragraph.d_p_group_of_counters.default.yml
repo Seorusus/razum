@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_d_counters_content:
+      label: 'Counters content'
+    group_d_counters_background:
+      label: 'Counters background'

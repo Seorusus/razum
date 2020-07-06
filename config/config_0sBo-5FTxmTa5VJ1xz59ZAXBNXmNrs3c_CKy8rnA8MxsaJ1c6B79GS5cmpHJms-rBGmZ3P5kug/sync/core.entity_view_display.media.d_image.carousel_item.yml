@@ -1,0 +1,40 @@
+uuid: e7920a75-f3a3-4b50-9e4c-1908eea95c31
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.carousel_item
+    - field.field.media.d_image.field_media_image
+    - media.type.d_image
+  module:
+    - lazy
+    - svg_image
+_core:
+  default_config_hash: Jt-Cm36KtFx1zJl_ENkZnc2rdojqBI_Z1PxQlbMfhu4
+id: media.d_image.carousel_item
+targetEntityType: media
+bundle: d_image
+mode: carousel_item
+content:
+  field_media_image:
+    weight: 0
+    label: hidden
+    settings:
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+    type: image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

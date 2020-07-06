@@ -1,0 +1,4 @@
+tags:
+  description: '[node:summary]'
+  title: '[node:title] | [site:name]'
+  og_description: '[node:summary]'

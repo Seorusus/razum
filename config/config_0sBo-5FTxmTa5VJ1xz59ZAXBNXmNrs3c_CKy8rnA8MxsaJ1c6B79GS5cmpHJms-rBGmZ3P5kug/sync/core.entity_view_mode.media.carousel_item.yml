@@ -1,0 +1,12 @@
+uuid: 139dc4e7-0738-4ac7-ab2a-ae1f0218307c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 6jyZpi-Rbz5tuCYrKC4wgiMhZU4-Lk86Y__MT6W181M
+id: media.carousel_item
+label: 'Carousel Item'
+targetEntityType: media
+cache: true

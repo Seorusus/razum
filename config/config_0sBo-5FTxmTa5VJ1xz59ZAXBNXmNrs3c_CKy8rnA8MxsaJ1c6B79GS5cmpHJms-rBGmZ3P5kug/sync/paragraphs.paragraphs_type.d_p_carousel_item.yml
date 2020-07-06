@@ -1,0 +1,12 @@
+uuid: 68c57076-e8c8-447b-b00e-0885447e9656
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rzdhmyUuybod2fdWuPaKuanQsE2CQHdfrlgAgTznXg0
+id: d_p_carousel_item
+label: 'Carousel item'
+icon_uuid: null
+icon_default: null
+description: 'Item of the Carousel paragraph.'
+behavior_plugins: {  }

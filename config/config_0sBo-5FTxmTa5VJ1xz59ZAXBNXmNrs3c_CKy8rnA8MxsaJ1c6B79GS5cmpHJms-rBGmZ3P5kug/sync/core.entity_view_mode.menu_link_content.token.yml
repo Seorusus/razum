@@ -1,0 +1,12 @@
+uuid: 41b3df5c-b8bf-4a78-b90e-b030f8bd4bc8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_link_content
+_core:
+  default_config_hash: TTHbJnnmzx02KP2FNkAlzqP_BFdKZwAVb8hfUbRbxuk
+id: menu_link_content.token
+label: Токен
+targetEntityType: menu_link_content
+cache: true

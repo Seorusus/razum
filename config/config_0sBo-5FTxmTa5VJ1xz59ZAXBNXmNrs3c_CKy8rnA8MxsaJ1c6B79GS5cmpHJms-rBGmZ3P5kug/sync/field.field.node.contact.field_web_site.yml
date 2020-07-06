@@ -1,0 +1,23 @@
+uuid: 59a9aa1a-31e7-4d0d-be76-fc8ca194de96
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_web_site
+    - node.type.contact
+  module:
+    - link
+id: node.contact.field_web_site
+field_name: field_web_site
+entity_type: node
+bundle: contact
+label: 'Web site'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

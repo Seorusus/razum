@@ -1,0 +1,12 @@
+uuid: 631bec74-109a-43c9-a445-f4ffc0f84fc9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: VBqZGW4EtxYklZNwH1auE6svc9Du7EUaDe4Kv3Xp7QQ
+id: media.d_icon
+label: Иконка
+targetEntityType: media
+cache: true

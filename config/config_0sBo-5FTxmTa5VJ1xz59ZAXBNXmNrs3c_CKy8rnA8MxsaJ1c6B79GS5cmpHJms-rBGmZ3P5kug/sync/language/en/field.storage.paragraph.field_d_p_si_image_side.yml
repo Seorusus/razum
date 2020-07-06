@@ -1,0 +1,12 @@
+settings:
+  allowed_values:
+    -
+      label: Left
+    -
+      label: Right
+    -
+      label: 'Full width'
+    -
+      label: 'Left (wide)'
+    -
+      label: 'Right (wide)'
