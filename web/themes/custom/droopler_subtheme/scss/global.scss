@@ -1,0 +1,50 @@
+// Main banner
+.half-transparent {
+  .d-p-banner {
+    .content-wrapper {
+      padding-top: 3%;
+      padding-bottom: 6%;
+    }
+  }
+}
+.paragraph--type--d-p-banner {
+  .content {
+    .field--name-field-d-main-title {
+      font-size:  3.04rem;
+    }
+  }
+}
+
+.path-frontpage {
+  .theme-invert > .d-p-banner {
+    .field--name-field-d-main-title {
+      color: #196dba;
+    }
+  }
+
+  // Carousel
+  .wrapper-d_p_carousel {
+    .field--name-field-d-media-icon {
+      .field--name-field-media-image {
+        margin: 0 auto!important;
+        max-width: 80px;
+      }
+    }
+  }
+
+  // Wrapper-d_p_group
+  .wrapper-d_p_group_of_text_blocks {
+    .field--name-field-d-media-icon {
+      .field--name-field-media-image {
+        margin: 0 auto;
+        max-width: 80px;
+      }
+    }
+  }
+}
+// Footer
+  footer {
+    background: url("../images/slide.jpg");
+    color: #dee2e6;
+  }
+
