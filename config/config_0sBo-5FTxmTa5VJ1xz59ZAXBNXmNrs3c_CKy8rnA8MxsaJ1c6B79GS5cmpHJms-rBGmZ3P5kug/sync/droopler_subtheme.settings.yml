@@ -7,4 +7,6 @@ features:
   comment_user_verification: true
   favicon: 1
 favicon:
-  use_default: 1
+  use_default: 0
+  path: 'public://favicon.ico'
+  mimetype: image/vnd.microsoft.icon
