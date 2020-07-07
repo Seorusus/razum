@@ -14,7 +14,7 @@
 /web/web.config
 /web/robots.txt
 drupal_config
-/backups/
+/backups/*
 
 # Ignore sensitive information
 /web/sites/*
