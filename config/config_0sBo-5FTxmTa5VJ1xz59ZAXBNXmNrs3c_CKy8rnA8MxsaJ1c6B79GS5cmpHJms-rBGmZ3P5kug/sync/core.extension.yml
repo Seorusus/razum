@@ -30,7 +30,6 @@ module:
   d_content: 0
   d_content_init: 0
   d_demo: 0
-  d_geysir: 0
   d_lang_dropdown: 0
   d_media: 0
   d_p: 0
@@ -70,7 +69,6 @@ module:
   field_ui: 0
   file: 0
   filter: 0
-  geysir: 0
   help: 0
   history: 0
   image: 0
