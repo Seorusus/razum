@@ -26,18 +26,18 @@
 		"drupal/codemirror_editor": "^1.5",
 		"drupal/console": "~1.0",
 		"drupal/content_parser": "1.x-dev",
-        "drupal/languageicons": "1.0-beta2",
 		"drupal/core-composer-scaffold": "^8.8",
 		"drupal/core-recommended": "^8.8",
+		"drupal/devel": "^4.0",
 		"drupal/jquery_ui_accordion": "^1.1",
 		"drupal/lang_dropdown": "^2.0@beta",
+		"drupal/languageicons": "1.0-beta2",
 		"drush/drush": "~9.0",
 		"oomphinc/composer-installers-extender": "^1.1",
 		"zaporylie/composer-drupal-optimizations": "^1.1"
 	},
     "require-dev": {
-        "drupal/core-dev": "^8.8",
-        "drupal/devel": "^2.1"
+        "drupal/core-dev": "^8.8"
     },
     "conflict": {
         "drupal/drupal": "*"

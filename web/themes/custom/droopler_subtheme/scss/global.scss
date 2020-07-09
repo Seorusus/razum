@@ -1,0 +1,123 @@
+// Home page
+.half-transparent {
+  .d-p-banner {
+    .content-wrapper {
+      padding-top: 3%;
+      padding-bottom: 6%;
+      background: rgba(255,255,255,.80);
+    }
+  }
+}
+
+.paragraph--type--d-p-banner {
+  .content {
+    .field--name-field-d-main-title {
+      font-size:  3.04rem;
+    }
+  }
+}
+
+.we-mega-menu-submenu {
+  background-color: transparent;
+  background: url("../images/slide.jpg");
+}
+
+
+.path-frontpage {
+
+  .field--name-field-d-main-title {
+    text-align: center!important;
+  }
+
+  .header-into-columns {
+    .d-p-group-of-text-blocks {
+      .d-p-group-of-text-blocks-header-wrapper {
+        .field--name-field-d-main-title {
+          &:after {
+            margin: 0 auto!important;
+            margin-top: 1.375rem!important;
+            margin-bottom: 1.51rem!important;
+          }
+        }
+      }
+    }
+  }
+
+
+  .theme-invert > .d-p-banner {
+    .field--name-field-d-main-title {
+      color: #196dba;
+    }
+  }
+
+  .wrapper-d_p_carousel {
+    .field--name-field-d-media-icon {
+      .field--name-field-media-image {
+        margin: 0 auto!important;
+        max-width: 80px;
+      }
+    }
+  }
+
+  .wrapper-d_p_group_of_text_blocks {
+    .field--name-field-d-media-icon {
+      .field--name-field-media-image {
+        margin: 0 auto;
+        max-width: 80px;
+      }
+    }
+  }
+
+  .wrapper-d_p_single_text_block {
+    .field--name-field-d-main-title {
+      color: #ffffff;
+      max-width: 473px;
+      margin: 0 auto;
+    }
+
+    .field--name-field-d-long-text {
+      span {
+        color: #ffffff;
+        margin-bottom: 30px;
+        display: block;
+      }
+
+      h2 {
+        span {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .list-services {
+    ul {
+      list-style-type: none;
+      text-align: left;
+
+      li {
+        line-height: 50px;
+        font-weight: 700;
+        letter-spacing: .7px;
+
+      }
+    }
+
+    img {
+      width: 50px;
+      padding-right: 10px;
+    }
+  }
+}
+
+// Footer
+footer {
+  background: url("../images/slide.jpg");
+  color: #dee2e6;
+
+  &.site-footer {
+    .block-block-content ul li a {
+      background-color: transparent!important;
+    }
+  }
+}
