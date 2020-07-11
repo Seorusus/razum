@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.d_small_box
     - field.field.node.content_page.field_page_section
+    - field.field.node.content_page.field_service_type
     - field.field.node.content_page.field_teaser_media_image
     - field.field.node.content_page.field_teaser_text
     - image.style.small_box_image
@@ -30,6 +31,7 @@ content:
     third_party_settings: {  }
 hidden:
   field_page_section: true
+  field_service_type: true
   field_teaser_text: true
   langcode: true
   links: true
