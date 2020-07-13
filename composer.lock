@@ -1834,7 +1834,7 @@
         },
         {
             "name": "droptica/droopler",
-            "version": "8.2.0",
+            "version": "8.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/droptica/droopler.git",
