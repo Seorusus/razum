@@ -1,4 +1,5 @@
-image_fields: {  }
+image_fields:
+  media--d_image--field_media_image--default: '1'
 alter_tag:
   img: img
   iframe: '0'

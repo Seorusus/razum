@@ -48,31 +48,34 @@ display:
           text_input_required: 'Выберите любой фильтр и нажмите Применить для просмотра результата'
           bef:
             general:
-              allow_secondary: false
-              secondary_label: 'Дополнительные настройки'
               autosubmit: false
               autosubmit_exclude_textfield: false
               autosubmit_hide: true
+              input_required: false
+              text_input_required: 'Выберите любой фильтр и нажмите Применить для просмотра результата'
+              text_input_required_format: basic_html
+              allow_secondary: false
+              secondary_label: 'Дополнительные настройки'
             sort:
-              bef_format: default
+              plugin_id: default
               advanced:
-                collapsible: false
-                collapsible_label: 'Настройка сортировки'
                 combine: false
                 combine_rewrite: ''
                 reset: false
                 reset_label: ''
+                collapsible: false
+                collapsible_label: 'Настройка сортировки'
                 is_secondary: false
-            aggregated_field:
-              bef_format: default
-              slider_options:
-                bef_slider_min: null
-                bef_slider_max: null
-                bef_slider_step: null
-                bef_slider_animate: ''
-                bef_slider_orientation: horizontal
-              more_options:
-                is_secondary: false
+            filter:
+              aggregated_field:
+                plugin_id: default
+                advanced:
+                  collapsible: false
+                  is_secondary: false
+                  placeholder_text: ''
+                  rewrite:
+                    filter_rewrite_values: ''
+                  sort_options: false
           text_input_required_format: full_html
       pager:
         type: full

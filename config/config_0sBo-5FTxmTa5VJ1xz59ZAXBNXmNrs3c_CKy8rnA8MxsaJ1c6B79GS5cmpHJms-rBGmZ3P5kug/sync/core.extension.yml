@@ -6,6 +6,7 @@ module:
   advagg_js_minify: 0
   advagg_mod: 0
   better_exposed_filters: 0
+  better_search: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -23,9 +24,7 @@ module:
   content_parser: 0
   contextual: 0
   ctools: 0
-  d_block: 0
   d_block_field: 0
-  d_blog: 0
   d_blog_init: 0
   d_content: 0
   d_content_init: 0
@@ -51,9 +50,6 @@ module:
   d_p_text_paged: 0
   d_p_text_with_bckg: 0
   d_p_tiles: 0
-  d_product: 0
-  d_product_init: 0
-  d_search: 0
   d_social_media: 0
   d_update: 0
   dblog: 0
@@ -101,6 +97,7 @@ module:
   shortcut: 0
   simple_sitemap: 0
   svg_image: 0
+  svg_image_responsive: 0
   system: 0
   taxonomy: 0
   text: 0

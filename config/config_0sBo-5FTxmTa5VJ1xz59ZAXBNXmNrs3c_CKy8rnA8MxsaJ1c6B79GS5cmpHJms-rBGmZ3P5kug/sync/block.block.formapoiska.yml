@@ -1,0 +1,21 @@
+uuid: 24069676-5630-46aa-80f5-d3b5abd4c896
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - droopler_subtheme
+id: formapoiska
+theme: droopler_subtheme
+region: header
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Форма поиска'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }
