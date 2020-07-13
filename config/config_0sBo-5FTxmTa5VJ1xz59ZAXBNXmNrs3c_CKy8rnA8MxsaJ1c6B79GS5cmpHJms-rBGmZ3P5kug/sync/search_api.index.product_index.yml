@@ -2,16 +2,13 @@ uuid: 906e2cb6-7ddc-4457-8522-d5165d23bc3f
 langcode: ru
 status: true
 dependencies:
+  module:
+    - node
+    - search_api
+    - taxonomy
   config:
-    - field.storage.node.body
-    - field.storage.node.field_product_categories
-    - field.storage.node.field_tags
     - search_api.server.db_server
     - core.entity_view_mode.node.full
-  module:
-    - taxonomy
-    - search_api
-    - node
 _core:
   default_config_hash: 8KUQB02gpCXtxVBoiqlfvkf5TJ5F0VE599CDLJ73n1Q
 id: product_index
@@ -29,55 +26,6 @@ field_settings:
       fields:
         - 'entity:node/body'
         - 'entity:node/title'
-  body:
-    label: Body
-    datasource_id: 'entity:node'
-    property_path: body
-    type: text
-    boost: !!float 2
-    dependencies:
-      config:
-        - field.storage.node.body
-  description:
-    label: 'Product categories » Taxonomy term » Description'
-    datasource_id: 'entity:node'
-    property_path: 'field_product_categories:entity:description'
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_product_categories
-      module:
-        - taxonomy
-  description_1:
-    label: 'Tags » Taxonomy term » Description'
-    datasource_id: 'entity:node'
-    property_path: 'field_tags:entity:description'
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_tags
-      module:
-        - taxonomy
-  name:
-    label: 'Product categories » Taxonomy term » Name'
-    datasource_id: 'entity:node'
-    property_path: 'field_product_categories:entity:name'
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_product_categories
-      module:
-        - taxonomy
-  name_1:
-    label: 'Tags » Taxonomy term » Name'
-    datasource_id: 'entity:node'
-    property_path: 'field_tags:entity:name'
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_tags
-      module:
-        - taxonomy
   node_grants:
     label: 'Node access information'
     property_path: search_api_node_grants
@@ -102,11 +50,17 @@ field_settings:
     type: boolean
     indexed_locked: true
     type_locked: true
+    dependencies:
+      module:
+        - node
   title:
     label: Title
     datasource_id: 'entity:node'
     property_path: title
     type: string
+    dependencies:
+      module:
+        - node
   uid:
     label: uid
     datasource_id: 'entity:node'
@@ -114,12 +68,26 @@ field_settings:
     type: integer
     indexed_locked: true
     type_locked: true
+    dependencies:
+      module:
+        - node
 datasource_settings:
   'entity:node':
     bundles:
       default: false
       selected:
-        - d_product
+        - blog_post
+        - content_page
+    languages:
+      default: true
+      selected: {  }
+  'entity:taxonomy_term':
+    bundles:
+      default: false
+      selected:
+        - blog_posts_category
+        - services
+        - tags
     languages:
       default: true
       selected: {  }
@@ -134,11 +102,6 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
-      - name
-      - name_1
       - rendered_item
       - title
     title: true
@@ -156,11 +119,6 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
-      - name
-      - name_1
       - rendered_item
       - title
     ignorable: '[''¿¡!?,.:;]'
@@ -189,28 +147,29 @@ processor_settings:
     weights:
       preprocess_index: -10
       preprocess_query: -10
+    ignorable_classes:
+      - Pc
+      - Pd
+      - Pe
+      - Pf
+      - Pi
+      - Po
+      - Ps
   ignorecase:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
-      - name
-      - name_1
       - rendered_item
       - title
     weights:
       preprocess_index: -20
       preprocess_query: -20
+  language_with_fallback: {  }
   rendered_item: {  }
   stemmer:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
       - rendered_item
     exceptions:
       mexican: mexic
@@ -222,9 +181,6 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
       - rendered_item
     stopwords:
       - a
@@ -269,9 +225,6 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
       - rendered_item
     spaces: ''
     overlap_cjk: 1
@@ -283,11 +236,6 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
-      - body
-      - description
-      - description_1
-      - name
-      - name_1
       - rendered_item
       - title
     weights:

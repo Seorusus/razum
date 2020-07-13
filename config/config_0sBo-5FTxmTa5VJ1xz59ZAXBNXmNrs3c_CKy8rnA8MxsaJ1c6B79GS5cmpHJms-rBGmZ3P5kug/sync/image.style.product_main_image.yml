@@ -1,17 +1,15 @@
 uuid: d8b0e42e-833d-40e4-b75d-aba1c2a5bed5
-langcode: ru
+langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: XszwwVOgEKCOZdSHrdXS1-lAc6uEGnhDFO6Dr2QCCvg
 name: product_main_image
 label: 'Product Main Image'
 effects:
-  c7593b10-a82b-42c4-ae9d-1bb38c048a5d:
-    uuid: c7593b10-a82b-42c4-ae9d-1bb38c048a5d
-    id: image_scale_and_crop
-    weight: 1
+  c350d667-1afa-41cb-a52d-f76bb01d8f61:
+    uuid: c350d667-1afa-41cb-a52d-f76bb01d8f61
+    id: image_scale
+    weight: 2
     data:
       width: 740
-      height: 410
-      anchor: center-center
+      height: 520
+      upscale: false

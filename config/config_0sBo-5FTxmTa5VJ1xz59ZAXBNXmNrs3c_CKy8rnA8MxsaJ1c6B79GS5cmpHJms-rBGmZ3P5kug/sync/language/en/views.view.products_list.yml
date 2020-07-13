@@ -17,9 +17,6 @@ display:
             sort:
               advanced:
                 collapsible_label: 'Sort options'
-            aggregated_field:
-              slider_options:
-                bef_slider_orientation: horizontal
           text_input_required_format: full_html
       pager:
         options:

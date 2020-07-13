@@ -1,4 +1,4 @@
-uuid: b6ec404f-c986-4e81-922a-7db9943506f0
+uuid: ae406395-d807-4a5c-8f75-8aa98f5af32a
 langcode: ru
 status: true
 dependencies:
@@ -6,10 +6,10 @@ dependencies:
     - lang_dropdown
   theme:
     - droopler_subtheme
-id: languagedropdownswitcher
+id: languagedropdownswitcher_2
 theme: droopler_subtheme
-region: header
-weight: -6
+region: secondary_menu
+weight: -8
 provider: null
 plugin: 'language_dropdown_block:language_interface'
 settings:
@@ -19,7 +19,7 @@ settings:
   label_display: '0'
   showall: 0
   tohome: 0
-  width: '60'
+  width: '65'
   display: '2'
   widget: '2'
   msdropdown:
@@ -27,7 +27,7 @@ settings:
     rounded: 1
     animation: slideDown
     event: click
-    skin: ldsSkinNoLabel
+    skin: ldsSkin
     custom_skin: ''
   chosen:
     disable_search: 1
