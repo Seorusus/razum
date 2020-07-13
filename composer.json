@@ -20,7 +20,7 @@
 	},
     "require": {
 		"composer/installers": "^1.2",
-		"droptica/droopler": "^8.2.0",
+		"droptica/droopler": "8.2.0",
 		"drupal/adminimal_theme": "^1.5",
 		"drupal/chosen": "^2.9",
 		"drupal/codemirror_editor": "^1.5",
