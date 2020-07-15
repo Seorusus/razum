@@ -14,8 +14,8 @@ provider: null
 plugin: social_media_block
 settings:
   id: social_media_block
-  label: 'Follow us'
+  label: 'Мы в Сети'
   provider: d_social_media
-  label_display: '1'
+  label_display: visible
   status: true
 visibility: {  }

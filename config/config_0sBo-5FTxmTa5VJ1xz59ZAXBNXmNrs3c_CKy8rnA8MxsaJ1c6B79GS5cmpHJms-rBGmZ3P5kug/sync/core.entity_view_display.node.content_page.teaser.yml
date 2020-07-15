@@ -1,0 +1,37 @@
+uuid: 9c887114-65cc-4ad2-9c28-a5b349a438fe
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.content_page.field_page_section
+    - field.field.node.content_page.field_service_type
+    - field.field.node.content_page.field_teaser_media_image
+    - field.field.node.content_page.field_teaser_text
+    - node.type.content_page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: WvPOM504OSyaCp7ScLpzFpTT8CiM3_bnmbcshDFCrtE
+id: node.content_page.teaser
+targetEntityType: node
+bundle: content_page
+mode: teaser
+content:
+  field_page_section:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  field_service_type: true
+  field_teaser_media_image: true
+  field_teaser_text: true
+  langcode: true
+  links: true
+  search_api_excerpt: true
