@@ -10,8 +10,8 @@ dependencies:
     - droopler_subtheme
 id: contacts
 theme: droopler_subtheme
-region: secondary_menu
-weight: -10
+region: header
+weight: -7
 provider: null
 plugin: 'block_content:20a2f822-b03c-4f70-89b6-49bc04bc27da'
 settings:

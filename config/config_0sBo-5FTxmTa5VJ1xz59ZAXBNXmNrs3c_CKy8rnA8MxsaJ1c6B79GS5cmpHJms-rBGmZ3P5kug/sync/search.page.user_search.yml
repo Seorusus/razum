@@ -1,4 +1,4 @@
-uuid: d58888bb-c7ed-484e-893d-02b5efde89ec
+uuid: 92240415-c8d2-4986-9a68-c6ad67d62619
 langcode: ru
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
 id: user_search
-label: Пользователи
+label: Users
 path: user
 weight: 0
 plugin: user_search

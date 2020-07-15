@@ -20,10 +20,10 @@ content:
     label: hidden
     settings:
       player_settings:
-        controls: '1'
-        autoplay: 0
-        loop: 0
-        muted: 0
+        autoplay: '1'
+        loop: '1'
+        muted: '1'
+        controls: 0
       video_settings:
         cover: '1'
         image_style: ''
