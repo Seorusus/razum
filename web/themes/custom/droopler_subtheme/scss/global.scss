@@ -26,22 +26,24 @@ h1 {
 
 .paragraph--type--d-p-banner {
   .content {
+    /*
     .field--name-field-d-main-title {
       font-size:  3.04rem;
     }
+    */
 
     &.container {
       margin-left: 0;
     }
 
     .field--name-field-d-main-title {
-    font-size: 4.04rem;
+    font-size: 3.6rem;
     font-family: Alegreya_Sans_SC;
     letter-spacing: 1px;
     transform: scaleX(1.3);
 
         @media (max-width: 767.98px) {
-              font-size: 3.04rem;
+              font-size: 2rem;
         }
     }
   }
@@ -163,6 +165,12 @@ h1 {
   }
 
   .list-services {
+    ._service {
+      @media (max-width: 767.98px) {
+        margin-bottom: 35px;
+      }
+    }
+
     ul {
       list-style-type: none;
       text-align: left;
