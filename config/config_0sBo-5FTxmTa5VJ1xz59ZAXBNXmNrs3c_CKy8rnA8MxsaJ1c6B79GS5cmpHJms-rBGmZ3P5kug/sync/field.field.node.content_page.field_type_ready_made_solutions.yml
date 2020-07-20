@@ -1,0 +1,29 @@
+uuid: 79b6a353-0aab-4f8e-90d8-588f2a099e1f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_ready_made_solutions
+    - node.type.content_page
+    - taxonomy.vocabulary.ready_made_solutions
+id: node.content_page.field_type_ready_made_solutions
+field_name: field_type_ready_made_solutions
+entity_type: node
+bundle: content_page
+label: 'Тип Готового решения'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ready_made_solutions: ready_made_solutions
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,16 +1,16 @@
-uuid: 956ba041-ab6f-48c0-ad7a-d4e9d986718f
+uuid: 995eb02e-8b60-4eb0-8d67-9ac55d6150dd
 langcode: ru
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.services
+    - taxonomy.vocabulary.ready_made_solutions
   module:
     - content_translation
 third_party_settings:
   content_translation:
     enabled: true
-id: taxonomy_term.services
+id: taxonomy_term.ready_made_solutions
 target_entity_type_id: taxonomy_term
-target_bundle: services
+target_bundle: ready_made_solutions
 default_langcode: site_default
 language_alterable: false

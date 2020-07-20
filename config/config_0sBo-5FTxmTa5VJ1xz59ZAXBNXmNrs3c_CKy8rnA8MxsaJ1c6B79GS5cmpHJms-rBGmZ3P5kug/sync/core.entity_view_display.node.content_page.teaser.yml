@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.content_page.field_service_type
     - field.field.node.content_page.field_teaser_media_image
     - field.field.node.content_page.field_teaser_text
+    - field.field.node.content_page.field_type_ready_made_solutions
     - node.type.content_page
   module:
     - entity_reference_revisions
@@ -32,6 +33,7 @@ hidden:
   field_service_type: true
   field_teaser_media_image: true
   field_teaser_text: true
+  field_type_ready_made_solutions: true
   langcode: true
   links: true
   search_api_excerpt: true

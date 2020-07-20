@@ -1,0 +1,8 @@
+uuid: 1df80664-5a3d-4672-ab48-761fdfb9d600
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Готовые решения'
+vid: ready_made_solutions
+description: ''
+weight: 0
