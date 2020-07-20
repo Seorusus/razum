@@ -11,7 +11,7 @@ dependencies:
 id: droopler_subtheme_block_content_3e5820c4_25e7_49d0_a7af_56f4c7f9d59c
 theme: droopler_subtheme
 region: footer_fourth
-weight: -9
+weight: -8
 provider: null
 plugin: 'block_content:3e5820c4-25e7-49d0-a7af-56f4c7f9d59c'
 settings:

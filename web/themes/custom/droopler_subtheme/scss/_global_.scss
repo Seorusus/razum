@@ -13,7 +13,6 @@ h1 {
   transform: scaleX(1.2);
   }
 
-// Home page
 .half-transparent {
   .d-p-banner {
     .content-wrapper {
@@ -229,37 +228,10 @@ h1 {
 
 // Header
 .header {
-  #block-contacts-2 {
-    svg {
-      @media (max-width: 991px) {
-      width: 50px;
-      }
-    }
-  }
-
-  .language-switcher {
-    .language-select {
-       @media (max-width: 991px) {
-          width: 76px!important;
-        }
-    }
-  }
-
-  .search-form {
-    .better_search {
-       @media (max-width: 991px) {
-      position: relative;
-      top: 52px;
-      left: 10px;
-      }
-    }
-  }
-
-  .form-search {
+.form-search {
   @media (max-width: 991px) {
-    height: 60px!important;    
+    height: 60px!important;
     }
-  }
 
   .secondary-menu-region {
      @media (max-width: 991.98px) {
@@ -297,6 +269,11 @@ h1 {
           .form-search {
             height: 67px;
             padding-left: 45px;
+
+            @media (max-width: 991px) {
+              height: 60px!important;
+
+            }
           }
         }
 
@@ -432,16 +409,6 @@ h1 {
     }
   }
 }
-
-// Text blocks
-.d-p-text-block {
-    .field--name-field-d-main-title {
-      @media (max-width: 991px) {
-          -webkit-box-orient: horizontal!important;
-          overflow: inherit!important;
-      }
-  }
-}
   // Footer
   footer {
     background: url("../images/slide.jpg");
@@ -452,17 +419,4 @@ h1 {
         background-color: transparent!important;
       }
     }
-
-    .list-services {
-      ul li {
-      line-height: 20px!important;
-      font-weight: 400!important;
-      letter-spacing: 0.2px!important;
-    }
   }
-
-  h2 {
-    text-align: center;
-  }
-}
-

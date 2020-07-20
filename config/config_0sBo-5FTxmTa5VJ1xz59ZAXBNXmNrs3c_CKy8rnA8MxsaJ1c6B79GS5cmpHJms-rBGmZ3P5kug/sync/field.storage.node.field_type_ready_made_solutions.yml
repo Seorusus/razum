@@ -1,0 +1,20 @@
+uuid: 967fa87d-6f1e-4c40-a3e4-126cf70cbc57
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_type_ready_made_solutions
+field_name: field_type_ready_made_solutions
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

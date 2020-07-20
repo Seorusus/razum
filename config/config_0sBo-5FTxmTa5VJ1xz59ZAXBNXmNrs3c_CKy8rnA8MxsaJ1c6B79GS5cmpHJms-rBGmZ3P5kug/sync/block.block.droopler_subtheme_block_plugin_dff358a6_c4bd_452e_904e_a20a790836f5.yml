@@ -8,7 +8,7 @@ dependencies:
     - droopler_subtheme
 id: droopler_subtheme_block_plugin_dff358a6_c4bd_452e_904e_a20a790836f5
 theme: droopler_subtheme
-region: footer_second
+region: footer_third
 weight: -9
 provider: null
 plugin: social_media_block
