@@ -1,4 +1,4 @@
-uuid: e066c9be-1ca1-4f5f-91d6-6c9003426797
+uuid: 42292bd4-6eb5-408a-9049-c58463b4117b
 langcode: ru
 status: true
 dependencies:
@@ -9,9 +9,6 @@ dependencies:
     - field.field.contact_message.feedback.field_type_service
   module:
     - field_token_value
-    - telephone
-_core:
-  default_config_hash: SwNptkduBc4xOd7CcSatD2F2IH3EFrbc8PPlW_oIvB0
 id: contact_message.feedback.default
 targetEntityType: contact_message
 bundle: feedback
@@ -19,38 +16,44 @@ mode: default
 content:
   field_notice:
     weight: 4
-    settings:
-      rows: 5
-      placeholder: 'Ваши пожелания'
+    label: above
+    settings: {  }
     third_party_settings: {  }
-    type: string_textarea
+    type: basic_string
     region: content
   field_telephone:
     weight: 3
+    label: above
     settings:
-      placeholder: 'Укажите номер телефона (опционально)'
+      link_to_entity: false
     third_party_settings: {  }
-    type: telephone_default
+    type: string
     region: content
   field_type_service:
-    weight: 2
-    settings: {  }
+    weight: 0
+    label: above
+    settings:
+      wrapper: div
     third_party_settings: {  }
-    type: field_token_value_default
+    type: field_token_value_text
     region: content
   mail:
+    weight: 2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  name:
     weight: 1
     region: content
-    settings: {  }
+    label: above
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-  name:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
+    type: string
 hidden:
-  copy: true
   langcode: true
   message: true
-  preview: true
+  search_api_excerpt: true
   subject: true

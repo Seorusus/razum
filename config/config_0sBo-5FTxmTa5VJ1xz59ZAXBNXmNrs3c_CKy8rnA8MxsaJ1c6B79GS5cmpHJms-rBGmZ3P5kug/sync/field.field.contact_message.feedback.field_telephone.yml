@@ -1,0 +1,21 @@
+uuid: 9746c58a-1c36-43d5-ae40-6b7a2eebea81
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_telephone
+  module:
+    - telephone
+id: contact_message.feedback.field_telephone
+field_name: field_telephone
+entity_type: contact_message
+bundle: feedback
+label: Телефон
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone
