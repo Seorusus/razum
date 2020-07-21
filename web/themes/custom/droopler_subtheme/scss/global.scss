@@ -13,6 +13,14 @@ h1 {
   transform: scaleX(1.2);
   }
 
+.amen {
+    font-size: 0.00001px;
+}
+
+body {
+  color: #525252!important;
+}
+
 // Home page
 .half-transparent {
   .d-p-banner {
@@ -83,6 +91,22 @@ h1 {
   }
   }
 
+}
+
+  .field--name-field-d-main-title {
+    @media (max-width: 767.98px) {
+      max-width: 90%;
+  }
+}
+
+/*Service form*/
+.service-form {
+  .field--name-field-d-long-text {
+    p {
+      font-size: 1.4rem;
+      text-align: end;
+    }
+  }
 }
 
 /*Home page */
@@ -442,6 +466,30 @@ h1 {
       }
   }
 }
+
+// Ready good block
+.ready-good {
+  .field--type-text-long {
+    p {
+      font-size: 1.4rem;      
+    }
+
+    ul {
+      font-size: 1.4rem;      
+    }
+  }
+
+  .field--name-field-d-media-icon {
+    img {
+      width: 200px;
+
+      @media (max-width: 991px) {
+        width: 125px;
+      }
+    }
+  }
+}
+
   // Footer
   footer {
     background: url("../images/slide.jpg");
