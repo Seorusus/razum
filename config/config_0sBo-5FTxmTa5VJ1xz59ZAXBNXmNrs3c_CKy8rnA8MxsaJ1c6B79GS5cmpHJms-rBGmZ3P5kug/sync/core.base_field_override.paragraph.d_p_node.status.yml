@@ -1,0 +1,22 @@
+uuid: 8a01f49c-7df5-486b-b94d-c759e14ac7b0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_node
+id: paragraph.d_p_node.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_node
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

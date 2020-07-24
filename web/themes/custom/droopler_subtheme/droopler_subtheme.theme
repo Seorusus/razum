@@ -88,3 +88,18 @@ function droopler_subtheme_preprocess_page(&$variables) {
 // function droopler_subtheme_preprocess_input(&$variables) {
 //
 // }
+
+function droopler_subtheme_preprocess_node(&$variables) {
+  if(isset($variables['node'])){
+    $node = $variables['node'];
+    if($node->getType() == 'application') {
+        $message = \Drupal::entityTypeManager()
+            ->getStorage('contact_message')
+            ->create(array(
+            'contact_form' => 'call_order',
+        ));
+        $form = \Drupal::service('entity.form_builder')->getForm($message);
+        $variables['call_order_form'] = $form;
+    }
+  }
+}

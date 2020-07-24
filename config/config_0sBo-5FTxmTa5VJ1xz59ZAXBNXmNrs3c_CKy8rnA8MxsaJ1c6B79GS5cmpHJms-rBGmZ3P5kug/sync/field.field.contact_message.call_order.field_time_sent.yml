@@ -1,0 +1,25 @@
+uuid: c67971c1-42af-46e2-8f8c-8c3c420f0ebc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.call_order
+    - field.storage.contact_message.field_time_sent
+  module:
+    - field_token_value
+id: contact_message.call_order.field_time_sent
+field_name: field_time_sent
+entity_type: contact_message
+bundle: call_order
+label: 'Время заполнения формы'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings:
+  field_value: '[current-date:html_datetime] прошло времени [current-date:since]'
+  remove_empty: 1
+field_type: field_token_value

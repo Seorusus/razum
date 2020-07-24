@@ -1,0 +1,21 @@
+uuid: 5bb7df3b-a49e-4626-9fc5-b927629cbf98
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_online_business
+  module:
+    - options
+id: contact_message.raschet_stoimosti.field_online_business
+field_name: field_online_business
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'для Онлайн Бизнеса'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

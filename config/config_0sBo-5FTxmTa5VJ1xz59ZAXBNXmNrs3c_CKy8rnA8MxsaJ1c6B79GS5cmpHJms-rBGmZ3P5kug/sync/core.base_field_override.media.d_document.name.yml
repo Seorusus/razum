@@ -1,0 +1,20 @@
+uuid: 50b87b86-a03f-485b-ae8f-96a7dd9749b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+id: media.d_document.name
+field_name: name
+entity_type: media
+bundle: d_document
+label: Название
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 70e4a144-e70c-4d3a-93d9-9bc8255bbc18
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_add_chart
+id: contact_message.raschet_stoimosti.field_add_chart
+field_name: field_add_chart
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'Дополнительные отчеты и графики'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Да
+  off_label: Нет
+field_type: boolean

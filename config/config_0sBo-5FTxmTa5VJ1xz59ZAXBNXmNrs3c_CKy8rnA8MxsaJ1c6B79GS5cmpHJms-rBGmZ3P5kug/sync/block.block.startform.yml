@@ -1,0 +1,23 @@
+uuid: 48b4495e-bf56-4c94-8d72-ce579ddc98df
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_start
+  module:
+    - contact_block
+  theme:
+    - droopler_subtheme
+id: startform
+theme: droopler_subtheme
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Start form'
+  provider: contact_block
+  label_display: '0'
+  contact_form: packet_start
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 2cdf51eb-9757-4220-96ae-e87baac88b3b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_ready_good_des
+    - field.storage.contact_message.field_order_decision
+  module:
+    - options
+id: contact_message.order_ready_good_des.field_order_decision
+field_name: field_order_decision
+entity_type: contact_message
+bundle: order_ready_good_des
+label: 'Заказ готового решения'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

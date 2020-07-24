@@ -1,0 +1,18 @@
+uuid: cac46b80-f38c-4487-b024-824c8deaee47
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.changed
+field_name: changed
+entity_type: node
+bundle: contact
+label: Изменение
+description: 'Время последнего редактирования материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

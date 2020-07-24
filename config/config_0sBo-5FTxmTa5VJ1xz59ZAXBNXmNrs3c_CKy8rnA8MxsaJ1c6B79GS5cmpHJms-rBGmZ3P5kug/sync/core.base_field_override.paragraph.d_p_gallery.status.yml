@@ -1,0 +1,22 @@
+uuid: fdfdac6e-d0ed-4512-bd93-fe3b7f1018f6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_gallery
+id: paragraph.d_p_gallery.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_gallery
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

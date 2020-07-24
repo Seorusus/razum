@@ -1,0 +1,42 @@
+uuid: b90d86af-e0d4-4a80-9b7c-be94928bcc68
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_online_business
+field_name: field_online_business
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: internet-commerce
+      label: Интернет-торговля
+    -
+      value: it-business
+      label: 'IT бизнес'
+    -
+      value: ISP
+      label: Интернет-провайдер
+    -
+      value: advertising-business
+      label: 'Рекламного Бизнес'
+    -
+      value: network-trading
+      label: 'Сетевой торговля'
+    -
+      value: insurance-company
+      label: 'Страховой Компания'
+    -
+      value: lead-generation
+      label: Лидогенерация
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

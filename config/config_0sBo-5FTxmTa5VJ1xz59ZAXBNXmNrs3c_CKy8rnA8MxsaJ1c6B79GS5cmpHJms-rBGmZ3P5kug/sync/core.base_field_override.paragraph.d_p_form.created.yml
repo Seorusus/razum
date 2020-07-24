@@ -1,0 +1,18 @@
+uuid: a1cbee35-2870-41dd-8434-5c73da891157
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_form
+id: paragraph.d_p_form.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_form
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,22 @@
+uuid: 7a86776d-8a23-45e4-b710-f4945b951098
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_tiles
+id: paragraph.d_p_tiles.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_tiles
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

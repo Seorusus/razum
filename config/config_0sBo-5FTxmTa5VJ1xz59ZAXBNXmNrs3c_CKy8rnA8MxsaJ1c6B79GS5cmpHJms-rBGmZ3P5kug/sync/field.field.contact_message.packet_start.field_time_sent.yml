@@ -1,0 +1,25 @@
+uuid: 0dc7a68c-f903-494e-8ec1-ff7bd5f6cd31
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_start
+    - field.storage.contact_message.field_time_sent
+  module:
+    - field_token_value
+id: contact_message.packet_start.field_time_sent
+field_name: field_time_sent
+entity_type: contact_message
+bundle: packet_start
+label: 'Время заполнения формы'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '[current-date:html_datetime] прошло времени [current-date:since]'
+default_value_callback: ''
+settings:
+  field_value: '[current-date:html_datetime]'
+  remove_empty: 0
+field_type: field_token_value

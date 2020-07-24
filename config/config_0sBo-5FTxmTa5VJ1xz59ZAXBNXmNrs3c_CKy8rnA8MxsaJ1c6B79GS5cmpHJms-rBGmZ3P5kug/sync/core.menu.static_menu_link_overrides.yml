@@ -1,6 +1,6 @@
 definitions:
   d_demo__engines:
-    weight: -45
+    weight: -44
     menu_name: main
     parent: ''
     expanded: false

@@ -1,0 +1,18 @@
+uuid: 9258db8e-0967-40d0-a5df-8e2a116df52a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+id: taxonomy_term.d_product_categories.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

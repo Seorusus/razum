@@ -1,0 +1,23 @@
+uuid: b2ae112a-a87c-4696-b7ac-c2a5ba632887
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_premium
+  module:
+    - contact_block
+  theme:
+    - droopler_subtheme
+id: premiumform
+theme: droopler_subtheme
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Premium form'
+  provider: contact_block
+  label_display: '0'
+  contact_form: packet_premium
+visibility: {  }

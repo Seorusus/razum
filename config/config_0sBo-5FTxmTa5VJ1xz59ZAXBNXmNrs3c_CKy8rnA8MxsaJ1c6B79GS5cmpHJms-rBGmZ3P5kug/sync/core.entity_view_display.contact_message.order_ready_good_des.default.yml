@@ -1,0 +1,59 @@
+uuid: abd26766-6c35-4eca-b6f3-6c35b540e6e5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_ready_good_des
+    - field.field.contact_message.order_ready_good_des.field_notice
+    - field.field.contact_message.order_ready_good_des.field_order_decision
+    - field.field.contact_message.order_ready_good_des.field_telephone
+  module:
+    - options
+    - telephone
+id: contact_message.order_ready_good_des.default
+targetEntityType: contact_message
+bundle: order_ready_good_des
+mode: default
+content:
+  field_notice:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_order_decision:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_telephone:
+    weight: 2
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  mail:
+    weight: 1
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  name:
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true
+  message: true
+  search_api_excerpt: true
+  subject: true

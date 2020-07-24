@@ -1,0 +1,18 @@
+uuid: 005fa82b-3c1e-44dc-a3ad-ffb987a0c417
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.metatag
+field_name: metatag
+entity_type: node
+bundle: contact
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

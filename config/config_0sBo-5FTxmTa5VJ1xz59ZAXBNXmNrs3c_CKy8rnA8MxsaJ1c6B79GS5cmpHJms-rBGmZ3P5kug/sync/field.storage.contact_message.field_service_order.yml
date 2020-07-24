@@ -1,0 +1,69 @@
+uuid: 0b2d5a37-a9a1-48be-8d52-9ebb35640d65
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_service_order
+field_name: field_service_order
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: hot-line
+      label: 'Горячая линия'
+    -
+      value: virtual-secretary
+      label: 'Виртуальный секретарь'
+    -
+      value: reception-orders
+      label: 'Служба приема заказов'
+    -
+      value: support-service
+      label: 'Служба тех.поддержки'
+    -
+      value: call-service
+      label: 'Инфо-справочная служба'
+    -
+      value: free-calls
+      label: 'Бесплатные звонки на 8-800'
+    -
+      value: lidogeneration
+      label: 'Создание и актуалзация баз данных'
+    -
+      value: telemarketing
+      label: Телемаркетинг
+    -
+      value: telephone-surveys
+      label: 'Телефонные опросы'
+    -
+      value: phone-presentation
+      label: 'Презентация по телефону'
+    -
+      value: informing-customers
+      label: 'Информирование клиентов'
+    -
+      value: mystery-shopper
+      label: 'Тайный покупатель'
+    -
+      value: rent-operators
+      label: 'Аренда операторов'
+    -
+      value: set-call-center
+      label: 'Организация call-центров'
+    -
+      value: email-processing
+      label: 'Обработка электронных обращений'
+    -
+      value: sms-direct
+      label: SMS-рассылка
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

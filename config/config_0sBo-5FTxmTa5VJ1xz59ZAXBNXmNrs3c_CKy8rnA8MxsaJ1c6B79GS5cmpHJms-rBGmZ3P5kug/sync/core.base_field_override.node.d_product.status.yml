@@ -1,0 +1,22 @@
+uuid: 657d84c0-ff51-4a3b-a712-a36eb67f730a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.d_product
+id: node.d_product.status
+field_name: status
+entity_type: node
+bundle: d_product
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

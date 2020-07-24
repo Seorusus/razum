@@ -1,0 +1,18 @@
+uuid: c13482d4-e163-4282-825f-8053ea243fe2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+id: taxonomy_term.d_product_categories.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

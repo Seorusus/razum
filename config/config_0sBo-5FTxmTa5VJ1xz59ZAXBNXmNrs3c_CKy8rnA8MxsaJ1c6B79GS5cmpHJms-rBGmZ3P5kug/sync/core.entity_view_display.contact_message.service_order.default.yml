@@ -1,0 +1,70 @@
+uuid: 14e6f454-05fe-489a-8465-70b5c577d57f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.service_order
+    - field.field.contact_message.service_order.field_notice
+    - field.field.contact_message.service_order.field_service_order
+    - field.field.contact_message.service_order.field_telephone
+  module:
+    - codemirror_editor
+    - options
+    - telephone
+id: contact_message.service_order.default
+targetEntityType: contact_message
+bundle: service_order
+mode: default
+content:
+  field_notice:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_service_order:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_telephone:
+    weight: 2
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  mail:
+    weight: 1
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  message:
+    type: codemirror_editor
+    weight: 4
+    label: above
+    region: content
+    settings:
+      mode: text/html
+      lineWrapping: false
+      lineNumbers: true
+      foldGutter: false
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true
+  search_api_excerpt: true
+  subject: true

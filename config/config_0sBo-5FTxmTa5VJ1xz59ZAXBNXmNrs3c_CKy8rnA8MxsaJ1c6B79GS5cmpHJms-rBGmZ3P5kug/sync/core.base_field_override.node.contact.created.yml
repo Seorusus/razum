@@ -1,0 +1,18 @@
+uuid: 9025580f-0925-4ffd-8f60-225fd4482803
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.created
+field_name: created
+entity_type: node
+bundle: contact
+label: 'Время создания'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

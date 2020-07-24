@@ -1,0 +1,23 @@
+uuid: d8d33ef4-4f72-44d5-82c8-f0775e96764f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Заказать пакет Standard'
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 5
+    page_autoreply_format: plain_text
+id: packet_standard
+label: 'Заказать пакет Standard'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+  - vladrazumdp@gmail.com
+reply: "Спасибо за обращение в колл-центр \"Razum Agency\", мы получили Ваш заказ пакета Standard.\r\nВ рабочее время, в течение 10 минут с Вами свяжется менеджер. Если Вы хотите уточнить дитали, воспользуйтесь формой каказа обратного звонка или Чатботом.\r\n\r\nС уважением, Олег Креминский\r\nCEO Razum Agency"
+weight: 0
+message: "Спасибо за обращение в колл-центр \"Razum Agency\", мы получили Ваш заказ пакета Standard.\r\nВ рабочее время, в течение 10 минут с Вами свяжется менеджер. Если Вы хотите уточнить дитали, воспользуйтесь формой каказа обратного звонка или Чатботом."
+redirect: /

@@ -1,0 +1,23 @@
+uuid: a035380d-6d63-4d3b-a15b-b6b647837052
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_scenario_call
+id: contact_message.raschet_stoimosti.field_scenario_call
+field_name: field_scenario_call
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'Наличие сценария разговора'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Да
+  off_label: Нет
+field_type: boolean

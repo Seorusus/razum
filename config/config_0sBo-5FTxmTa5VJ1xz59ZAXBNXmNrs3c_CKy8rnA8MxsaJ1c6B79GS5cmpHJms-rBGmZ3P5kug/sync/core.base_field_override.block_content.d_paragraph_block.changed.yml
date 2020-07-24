@@ -1,0 +1,18 @@
+uuid: a04e4333-8874-4b33-815c-031198a1b515
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+id: block_content.d_paragraph_block.changed
+field_name: changed
+entity_type: block_content
+bundle: d_paragraph_block
+label: Изменение
+description: 'Время, когда пользовательский блок был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

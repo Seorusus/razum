@@ -1,0 +1,21 @@
+uuid: 2f6f32e9-9526-4605-8391-e8427d3a687b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_start
+    - field.storage.contact_message.field_telephone
+  module:
+    - telephone
+id: contact_message.packet_start.field_telephone
+field_name: field_telephone
+entity_type: contact_message
+bundle: packet_start
+label: Телефон
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

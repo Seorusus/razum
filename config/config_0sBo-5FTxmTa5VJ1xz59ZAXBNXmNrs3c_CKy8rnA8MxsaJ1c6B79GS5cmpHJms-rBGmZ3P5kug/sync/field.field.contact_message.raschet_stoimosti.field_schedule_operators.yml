@@ -1,0 +1,23 @@
+uuid: faa85fa1-510f-4c69-955f-b0e416f99fac
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_schedule_operators
+  module:
+    - options
+id: contact_message.raschet_stoimosti.field_schedule_operators
+field_name: field_schedule_operators
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'График работы операторов'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '8'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

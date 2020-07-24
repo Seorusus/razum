@@ -1,0 +1,25 @@
+uuid: d3ef7127-104e-40cb-9c12-143ae74e0f1a
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:986fe1bb-d81d-4328-9cbf-3b7e3f42cdc6'
+  module:
+    - block_content
+  theme:
+    - droopler_subtheme
+id: callorder
+theme: droopler_subtheme
+region: footer_main
+weight: -10
+provider: null
+plugin: 'block_content:986fe1bb-d81d-4328-9cbf-3b7e3f42cdc6'
+settings:
+  id: 'block_content:986fe1bb-d81d-4328-9cbf-3b7e3f42cdc6'
+  label: 'Call order'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

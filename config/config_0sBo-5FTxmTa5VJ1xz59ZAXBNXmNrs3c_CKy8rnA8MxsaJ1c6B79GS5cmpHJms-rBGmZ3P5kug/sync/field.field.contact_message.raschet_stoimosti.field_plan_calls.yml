@@ -1,0 +1,23 @@
+uuid: 9a729bd1-2229-4405-b71e-45f10980b97f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_plan_calls
+  module:
+    - options
+id: contact_message.raschet_stoimosti.field_plan_calls
+field_name: field_plan_calls
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'Количество звонков в месяц'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '200'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,39 @@
+uuid: 0b332964-e8a2-4815-8927-469650ed4cc7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_outbound_marketing
+field_name: field_outbound_marketing
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: lidogeneration
+      label: 'Создание и актуалзация баз данных'
+    -
+      value: telemarketing
+      label: Телемаркетинг
+    -
+      value: telephone-surveys
+      label: 'Телефонные опросы'
+    -
+      value: phone-presentation
+      label: 'Презентация по телефону'
+    -
+      value: informing-customers
+      label: 'Информирование клиентов'
+    -
+      value: mystery-shopper
+      label: 'Тайный покупатель'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

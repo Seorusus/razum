@@ -1,0 +1,20 @@
+uuid: 0922931f-b42f-492a-901f-c8e52d865615
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.d_product
+id: node.d_product.menu_link
+field_name: menu_link
+entity_type: node
+bundle: d_product
+label: 'Ссылка меню'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

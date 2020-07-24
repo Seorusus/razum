@@ -1,0 +1,39 @@
+uuid: bc150743-92f4-4516-829a-b1617d3df638
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_premium
+    - field.field.contact_message.packet_premium.field_telephone
+    - field.field.contact_message.packet_premium.field_time_sent
+  module:
+    - telephone
+id: contact_message.packet_premium.default
+targetEntityType: contact_message
+bundle: packet_premium
+mode: default
+content:
+  field_telephone:
+    weight: 2
+    settings:
+      placeholder: 'По какому номеру мы можем с вами связаться?'
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  field_time_sent: true
+  langcode: true
+  message: true
+  preview: true
+  subject: true

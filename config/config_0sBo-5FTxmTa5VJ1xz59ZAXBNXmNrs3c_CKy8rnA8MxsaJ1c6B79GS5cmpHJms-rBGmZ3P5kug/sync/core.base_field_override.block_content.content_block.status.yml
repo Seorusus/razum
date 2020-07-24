@@ -1,0 +1,22 @@
+uuid: 45953700-0a3d-48d7-b818-12727e42d876
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+id: block_content.content_block.status
+field_name: status
+entity_type: block_content
+bundle: content_block
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

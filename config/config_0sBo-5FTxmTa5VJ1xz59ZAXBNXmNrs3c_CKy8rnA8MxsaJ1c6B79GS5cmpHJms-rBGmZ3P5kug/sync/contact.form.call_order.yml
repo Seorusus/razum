@@ -1,0 +1,23 @@
+uuid: a0fd1b67-a92d-4e8c-b983-c6e4dc22ab7a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Заказать звонок'
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 5
+    page_autoreply_format: plain_text
+id: call_order
+label: 'Заказать Звонок'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+  - vladrazumdp@gmail.com
+reply: ''
+weight: 0
+message: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nВ рабочее время, в течение часа с Вами свяжется менеджер."
+redirect: /

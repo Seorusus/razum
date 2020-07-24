@@ -1,0 +1,18 @@
+uuid: 8704325c-31d3-412c-9d43-bdcc750bc78b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_scenario_call
+field_name: field_scenario_call
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

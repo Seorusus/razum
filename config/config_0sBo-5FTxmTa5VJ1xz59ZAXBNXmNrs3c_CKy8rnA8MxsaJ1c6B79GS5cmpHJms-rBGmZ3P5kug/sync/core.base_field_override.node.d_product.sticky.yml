@@ -1,0 +1,22 @@
+uuid: badaac58-c6ed-4e6d-8e7e-4e234a888265
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.d_product
+id: node.d_product.sticky
+field_name: sticky
+entity_type: node
+bundle: d_product
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

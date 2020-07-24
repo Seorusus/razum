@@ -1,0 +1,20 @@
+uuid: abb9f5f1-ab73-418a-9e10-2580a3b9f5fb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+  module:
+    - path
+id: taxonomy_term.d_product_categories.path
+field_name: path
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

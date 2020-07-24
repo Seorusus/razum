@@ -1,0 +1,81 @@
+uuid: 7fbf6186-59dd-4d78-b373-8d4f1d305189
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_order_decision
+field_name: field_order_decision
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: internet-commerce
+      label: Интернет-торговля
+    -
+      value: it-business
+      label: 'IT бизнес'
+    -
+      value: ISP
+      label: Интернет-провайдер
+    -
+      value: advertising-business
+      label: 'Рекламного Бизнес'
+    -
+      value: network-trading
+      label: 'Сетевой торговля'
+    -
+      value: insurance-company
+      label: 'Страховой Компания'
+    -
+      value: lead-generation
+      label: Лидогенерация
+    -
+      value: production
+      label: 'Промышленная Компания'
+    -
+      value: construction-company
+      label: 'Строительная Компания'
+    -
+      value: restaurants
+      label: 'Ресторанный бизнес'
+    -
+      value: hire-and-rent
+      label: 'Сервис Проката и аренды'
+    -
+      value: taxi-service
+      label: 'Служба Такси'
+    -
+      value: delivery-service
+      label: 'Служба Доставки'
+    -
+      value: car-dealers
+      label: Автосалона
+    -
+      value: car-repair-service
+      label: 'Станции Техобслуживания'
+    -
+      value: transport-expedition
+      label: 'Транспортная Экспедиция'
+    -
+      value: beauty-salon
+      label: 'Салон Красоты'
+    -
+      value: fitness-club
+      label: 'Фитнес Клуба'
+    -
+      value: banking-business
+      label: 'Банковский Бизнес'
+    -
+      value: medical-company
+      label: 'Медицинской Компании'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

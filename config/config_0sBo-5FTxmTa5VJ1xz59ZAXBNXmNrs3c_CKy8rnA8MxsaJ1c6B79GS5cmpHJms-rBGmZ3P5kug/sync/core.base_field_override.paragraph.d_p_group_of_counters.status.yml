@@ -1,0 +1,22 @@
+uuid: f7806677-1463-4139-ad0a-c20954c0d8dc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+id: paragraph.d_p_group_of_counters.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

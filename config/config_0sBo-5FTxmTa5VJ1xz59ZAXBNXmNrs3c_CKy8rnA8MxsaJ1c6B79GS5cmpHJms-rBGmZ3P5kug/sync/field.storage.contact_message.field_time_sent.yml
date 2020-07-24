@@ -1,0 +1,19 @@
+uuid: ab6e1049-9ca0-4815-82c4-cd1561a2cdb6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - field_token_value
+id: contact_message.field_time_sent
+field_name: field_time_sent
+entity_type: contact_message
+type: field_token_value
+settings: {  }
+module: field_token_value
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

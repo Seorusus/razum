@@ -1,0 +1,18 @@
+uuid: e10deb25-48f9-4a7c-b270-317edf36a8f7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+id: media.d_video.metatag
+field_name: metatag
+entity_type: media
+bundle: d_video
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

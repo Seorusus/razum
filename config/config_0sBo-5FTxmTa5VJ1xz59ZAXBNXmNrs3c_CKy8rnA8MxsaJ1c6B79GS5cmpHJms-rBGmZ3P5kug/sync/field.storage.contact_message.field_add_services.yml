@@ -1,0 +1,33 @@
+uuid: 6c20637f-098a-4760-a7ca-5aefe7fe0376
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_add_services
+field_name: field_add_services
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: rent-operators
+      label: 'Аренда операторов'
+    -
+      value: set-call-center
+      label: 'Организация call-центров'
+    -
+      value: email-processing
+      label: 'Обработка электронных обращений'
+    -
+      value: sms-direct
+      label: SMS-рассылка
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

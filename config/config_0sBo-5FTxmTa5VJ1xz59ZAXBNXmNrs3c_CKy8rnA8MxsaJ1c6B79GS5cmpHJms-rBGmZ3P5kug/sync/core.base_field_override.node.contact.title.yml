@@ -1,0 +1,18 @@
+uuid: de8ef280-d2d5-4318-8ce0-dcde212942a5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.title
+field_name: title
+entity_type: node
+bundle: contact
+label: Заголовок
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

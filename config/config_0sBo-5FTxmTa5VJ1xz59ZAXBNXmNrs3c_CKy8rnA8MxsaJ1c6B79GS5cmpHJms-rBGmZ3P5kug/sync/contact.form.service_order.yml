@@ -1,0 +1,23 @@
+uuid: c124a7e9-5eff-4937-8220-9443e46896cd
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Получить предложение'
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 3
+    page_autoreply_format: plain_text
+id: service_order
+label: 'Заказать услугу'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+  - vladrazumdp@gmail.com
+reply: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nМы постараемся быстро подготовить и отправить Вам коммерческое предложение выбранной Вами услуги.\r\n\r\nС уважением, Олег Креминский\r\nCEO Razum Agency"
+weight: 0
+message: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nМы постараемся быстро подготовить и отправить Вам коммерческое предложение выбранной Вами услуги."
+redirect: /

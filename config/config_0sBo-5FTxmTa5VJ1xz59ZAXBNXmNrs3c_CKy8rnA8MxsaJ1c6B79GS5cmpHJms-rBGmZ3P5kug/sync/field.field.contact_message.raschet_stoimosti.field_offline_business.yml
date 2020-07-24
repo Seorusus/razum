@@ -1,0 +1,21 @@
+uuid: 316f9965-a089-47de-9246-3f1c3830f590
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_offline_business
+  module:
+    - options
+id: contact_message.raschet_stoimosti.field_offline_business
+field_name: field_offline_business
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'для Оффлайн Бизнеса'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

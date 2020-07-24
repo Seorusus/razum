@@ -1,0 +1,23 @@
+uuid: e3ef06f0-6e9f-4548-876b-e5dc5de54cfd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_prof
+  module:
+    - contact_block
+  theme:
+    - droopler_subtheme
+id: profform
+theme: droopler_subtheme
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Prof form'
+  provider: contact_block
+  label_display: '0'
+  contact_form: packet_prof
+visibility: {  }

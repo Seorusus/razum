@@ -1,0 +1,20 @@
+uuid: d55a865c-3925-4854-b51b-4f20fb0b4ad8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+  module:
+    - path
+id: media.d_video.path
+field_name: path
+entity_type: media
+bundle: d_video
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

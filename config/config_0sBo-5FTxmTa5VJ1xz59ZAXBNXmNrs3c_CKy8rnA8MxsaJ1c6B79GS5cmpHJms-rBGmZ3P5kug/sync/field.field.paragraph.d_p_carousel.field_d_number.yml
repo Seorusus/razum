@@ -14,7 +14,7 @@ bundle: d_p_carousel
 label: 'Количество столбцов'
 description: 'Number of layout columns to show in a row within the viewport. Possible values: 1, 2, 3, 4, 6, 12.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

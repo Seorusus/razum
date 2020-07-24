@@ -1,0 +1,47 @@
+uuid: 599351c7-dec8-4b92-9e9b-f8b6d5b9df83
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.call_order
+    - core.entity_view_mode.contact_message.callback
+    - field.field.contact_message.call_order.field_telephone
+    - field.field.contact_message.call_order.field_time_sent
+  module:
+    - field_token_value
+    - telephone
+id: contact_message.call_order.callback
+targetEntityType: contact_message
+bundle: call_order
+mode: callback
+content:
+  field_telephone:
+    weight: 2
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_time_sent:
+    weight: 0
+    label: inline
+    settings:
+      wrapper: ''
+    third_party_settings: {  }
+    type: field_token_value_text
+    region: content
+  name:
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true
+  mail: true
+  message: true
+  search_api_excerpt: true
+  subject: true

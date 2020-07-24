@@ -1,0 +1,18 @@
+uuid: 3fb0b895-fd2b-4bf3-bd82-866a6bcde0d4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_tiles
+id: paragraph.d_p_tiles.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_tiles
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

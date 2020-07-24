@@ -1,0 +1,22 @@
+uuid: 40cf3fe2-5924-43ab-9996-94f53d05dd3e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+id: media.d_document.status
+field_name: status
+entity_type: media
+bundle: d_document
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

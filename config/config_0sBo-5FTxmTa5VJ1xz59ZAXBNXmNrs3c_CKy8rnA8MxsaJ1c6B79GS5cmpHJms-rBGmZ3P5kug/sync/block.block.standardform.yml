@@ -1,0 +1,23 @@
+uuid: 948af495-bd1e-4c7e-9d88-a4febb28e5b3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_standard
+  module:
+    - contact_block
+  theme:
+    - droopler_subtheme
+id: standardform
+theme: droopler_subtheme
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Standard form'
+  provider: contact_block
+  label_display: '0'
+  contact_form: packet_standard
+visibility: {  }

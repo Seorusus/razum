@@ -1,0 +1,18 @@
+uuid: 53b800fb-1351-4603-bb49-cadaa0799c53
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+id: paragraph.d_p_group_of_counters.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

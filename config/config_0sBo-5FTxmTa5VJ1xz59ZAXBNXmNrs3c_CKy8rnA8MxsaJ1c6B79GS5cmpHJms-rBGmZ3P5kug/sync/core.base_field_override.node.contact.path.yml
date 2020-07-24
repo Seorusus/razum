@@ -1,0 +1,20 @@
+uuid: ef5818a9-e351-4dd5-8012-f15943b56c8c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+  module:
+    - path
+id: node.contact.path
+field_name: path
+entity_type: node
+bundle: contact
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
