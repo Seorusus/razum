@@ -1,0 +1,23 @@
+uuid: 32752521-72be-4de7-8590-9f0dc0211742
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Заказать пакет Start'
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 5
+    page_autoreply_format: plain_text
+id: packet_start
+label: 'Заказать пакет Start'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+  - vladrazumdp@gmail.com
+reply: "Спасибо за обращение в колл-центр \"Razum Agency\", мы получили Ваш заказ пакета Start.\r\nВ рабочее время, в течение 10 минут с Вами свяжется менеджер. Если Вы хотите уточнить дитали, воспользуйтесь формой каказа обратного звонка или Чатботом.\r\n\r\nС уважением, Олег Креминский\r\nCEO Razum Agency"
+weight: 0
+message: "Спасибо за обращение в колл-центр \"Razum Agency\", мы получили Ваш заказ пакета Start.\r\nВ рабочее время, в течение 10 минут с Вами свяжется менеджер. Если Вы хотите уточнить дитали, воспользуйтесь формой каказа обратного звонка или Чатботом."
+redirect: /

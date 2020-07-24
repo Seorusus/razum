@@ -1,23 +1,23 @@
-uuid: 483494b1-4907-4099-afeb-61abfdce1436
+uuid: 48b4495e-bf56-4c94-8d72-ce579ddc98df
 langcode: ru
 status: true
 dependencies:
   config:
-    - contact.form.call_order
+    - contact.form.packet_start
   module:
     - contact_block
   theme:
     - droopler_subtheme
-id: contactblock
+id: startform
 theme: droopler_subtheme
 region: featured_bottom_third
-weight: -11
+weight: 0
 provider: null
 plugin: contact_block
 settings:
   id: contact_block
-  label: 'Call back'
+  label: 'Start form'
   provider: contact_block
   label_display: '0'
-  contact_form: call_order
+  contact_form: packet_start
 visibility: {  }

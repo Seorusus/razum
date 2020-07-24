@@ -21,14 +21,14 @@ content:
     weight: 4
     settings:
       rows: 5
-      placeholder: 'Ваши пожелания'
+      placeholder: 'Какая дополнительная информация Вас интересует?'
     third_party_settings: {  }
     type: string_textarea
     region: content
   field_telephone:
     weight: 3
     settings:
-      placeholder: 'Укажите номер телефона (опционально)'
+      placeholder: 'По какому номеру мы можем с вами связаться?'
     third_party_settings: {  }
     type: telephone_default
     region: content

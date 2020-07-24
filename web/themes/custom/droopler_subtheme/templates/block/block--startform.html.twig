@@ -34,24 +34,24 @@
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModal" role="dialog" tabindex="-1">
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="start" role="dialog" tabindex="-1">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
       <h5 class="modal-title" id="myModalLabel">
-        {% trans %}Заказать обратный звонок{% endtrans %}
+        {% trans %}Заказать пакет Start{% endtrans %}
       </h5>
       <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
       </div>
       <div class="modal-description">
-        <span>{% trans %}Оставьте, пожалуйста номер Вашего телефона, мы свяжемся с вами в самое ближайшее время.{% endtrans %}</span>
+        <span>{% trans %}Оставьте, пожалуйста Ваши данные, мы свяжемся с вами в самое ближайшее время для уточнения деталей.{% endtrans %}</span>
       </div>
 
       <div class="modal-body">
           {{ content }}
       </div>
       <div class="modal-description">
-        <span>{% trans %}Нажимая на кнопку "Заказать обратный звонок", вы даете согласие на обработку персональных данных и соглашаетесь c <a href="/privacy-policy">политикой конфиденциальности.</a>{% endtrans %}</span>
+        <span>{% trans %}Нажимая на кнопку "Заказать пакет Start", вы даете согласие на обработку персональных данных и соглашаетесь c <a href="/privacy-policy">политикой конфиденциальности.</a>{% endtrans %}</span>
       </div>
     </div>
   </div>

@@ -1,23 +1,23 @@
-uuid: 483494b1-4907-4099-afeb-61abfdce1436
+uuid: e3ef06f0-6e9f-4548-876b-e5dc5de54cfd
 langcode: ru
 status: true
 dependencies:
   config:
-    - contact.form.call_order
+    - contact.form.packet_prof
   module:
     - contact_block
   theme:
     - droopler_subtheme
-id: contactblock
+id: profform
 theme: droopler_subtheme
 region: featured_bottom_third
-weight: -11
+weight: 0
 provider: null
 plugin: contact_block
 settings:
   id: contact_block
-  label: 'Call back'
+  label: 'Prof form'
   provider: contact_block
   label_display: '0'
-  contact_form: call_order
+  contact_form: packet_prof
 visibility: {  }

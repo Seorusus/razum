@@ -1,25 +1,30 @@
-uuid: ba4bf106-c5dd-4301-975a-d36da4757593
+uuid: 8b723dea-97be-4f38-bcb6-a58474533377
 langcode: ru
 status: true
 dependencies:
   config:
-    - contact.form.call_order
-    - field.field.contact_message.call_order.field_telephone
-    - field.field.contact_message.call_order.field_time_sent
+    - contact.form.packet_prof
+    - field.field.contact_message.packet_prof.field_telephone
+    - field.field.contact_message.packet_prof.field_time_sent
   module:
     - telephone
-id: contact_message.call_order.default
+id: contact_message.packet_prof.default
 targetEntityType: contact_message
-bundle: call_order
+bundle: packet_prof
 mode: default
 content:
   field_telephone:
-    weight: 1
+    weight: 2
     settings:
       placeholder: 'По какому номеру мы можем с вами связаться?'
     third_party_settings: {  }
     type: telephone_default
     region: content
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   name:
     weight: 0
     region: content
@@ -29,7 +34,6 @@ hidden:
   copy: true
   field_time_sent: true
   langcode: true
-  mail: true
   message: true
   preview: true
   subject: true

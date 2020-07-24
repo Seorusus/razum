@@ -18,7 +18,7 @@ content:
     weight: 4
     settings:
       rows: 5
-      placeholder: 'Напишите пожелание (опционально)'
+      placeholder: 'Какая дополнительная информация Вас интересует?'
     third_party_settings: {  }
     type: string_textarea
     region: content
@@ -31,7 +31,7 @@ content:
   field_telephone:
     weight: 2
     settings:
-      placeholder: ''
+      placeholder: 'По какому номеру мы можем с вами связаться?'
     third_party_settings: {  }
     type: telephone_default
     region: content

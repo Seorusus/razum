@@ -1,0 +1,52 @@
+uuid: 790ad90c-401f-4e68-a324-66f8fcb53648
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_standard
+    - field.field.contact_message.packet_standard.field_telephone
+    - field.field.contact_message.packet_standard.field_time_sent
+  module:
+    - field_token_value
+    - telephone
+id: contact_message.packet_standard.default
+targetEntityType: contact_message
+bundle: packet_standard
+mode: default
+content:
+  field_telephone:
+    weight: 2
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_time_sent:
+    weight: 0
+    label: inline
+    settings:
+      wrapper: ''
+    third_party_settings: {  }
+    type: field_token_value_text
+    region: content
+  mail:
+    type: basic_string
+    weight: 3
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true
+  message: true
+  search_api_excerpt: true
+  subject: true
