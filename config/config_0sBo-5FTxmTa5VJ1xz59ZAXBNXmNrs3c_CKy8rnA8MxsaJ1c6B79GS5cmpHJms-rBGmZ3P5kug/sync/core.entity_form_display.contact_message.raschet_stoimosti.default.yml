@@ -1,0 +1,163 @@
+uuid: 936688a8-8ad2-4db6-9177-8a3d195f7f36
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.field.contact_message.raschet_stoimosti.field_add_chart
+    - field.field.contact_message.raschet_stoimosti.field_add_services
+    - field.field.contact_message.raschet_stoimosti.field_data_base_have
+    - field.field.contact_message.raschet_stoimosti.field_inbound_marketing
+    - field.field.contact_message.raschet_stoimosti.field_offline_business
+    - field.field.contact_message.raschet_stoimosti.field_online_business
+    - field.field.contact_message.raschet_stoimosti.field_outbound_marketing
+    - field.field.contact_message.raschet_stoimosti.field_plan_calls
+    - field.field.contact_message.raschet_stoimosti.field_scenario_call
+    - field.field.contact_message.raschet_stoimosti.field_schedule_operators
+    - field.field.contact_message.raschet_stoimosti.field_telephone
+  module:
+    - field_group
+    - telephone
+third_party_settings:
+  field_group:
+    group_vybor_uslugi:
+      children:
+        - field_inbound_marketing
+        - field_outbound_marketing
+        - field_add_services
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: true
+        required_fields: true
+        weight: 0
+      label: 'Выбор услуги'
+    group_vybor_gotovogo_resheniya:
+      children:
+        - field_online_business
+        - field_offline_business
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      region: content
+      format_settings:
+        description: ''
+        open: true
+        weight: 0
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Выбор готового решения'
+    group_additional_parameters:
+      children:
+        - field_schedule_operators
+        - field_scenario_call
+        - field_add_chart
+        - field_data_base_have
+        - field_plan_calls
+      parent_name: ''
+      weight: 5
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Дополнительные параметры'
+id: contact_message.raschet_stoimosti.default
+targetEntityType: contact_message
+bundle: raschet_stoimosti
+mode: default
+content:
+  field_add_chart:
+    weight: 16
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_add_services:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_data_base_have:
+    weight: 17
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_inbound_marketing:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_offline_business:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_online_business:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_outbound_marketing:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_plan_calls:
+    weight: 18
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_scenario_call:
+    weight: 15
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_schedule_operators:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_telephone:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  langcode: true
+  message: true
+  preview: true
+  subject: true

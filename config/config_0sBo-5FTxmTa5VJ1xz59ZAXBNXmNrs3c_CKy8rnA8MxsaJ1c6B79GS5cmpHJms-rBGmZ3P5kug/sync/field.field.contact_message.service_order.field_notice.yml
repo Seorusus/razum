@@ -1,0 +1,19 @@
+uuid: baa0fb5e-4c99-426b-8bc9-7f2f0eb6fa7c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.service_order
+    - field.storage.contact_message.field_notice
+id: contact_message.service_order.field_notice
+field_name: field_notice
+entity_type: contact_message
+bundle: service_order
+label: Пожелание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -11,7 +11,7 @@
  */
 #}
 {% spaceless %}
-  <select{{ attributes.addClass("form-control btn btn-primary language-select") }}>
+  <select{{ attributes.addClass("form-control language-select") }}>
     {% for option in options %}
       {% if option.type == 'optgroup' %}
         <optgroup label="{{ option.label }}">

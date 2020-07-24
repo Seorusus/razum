@@ -11,7 +11,7 @@ dependencies:
 id: droopler_subtheme_block_plugin_3244be5d_5f55_4170_a2ad_93169717a340
 theme: droopler_subtheme
 region: footer_main
-weight: 0
+weight: -11
 provider: null
 plugin: 'system_menu_block:bottom-footer-menu'
 settings:

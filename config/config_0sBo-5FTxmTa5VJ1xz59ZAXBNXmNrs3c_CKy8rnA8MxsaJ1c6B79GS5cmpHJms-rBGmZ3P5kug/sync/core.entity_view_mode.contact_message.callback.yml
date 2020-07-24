@@ -1,0 +1,10 @@
+uuid: 451194c0-a07e-4f5e-a3f0-a466df068e81
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.callback
+label: callback
+targetEntityType: contact_message
+cache: true

@@ -1,0 +1,21 @@
+uuid: dc812e39-906e-4289-be67-593447bdf606
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_telephone
+  module:
+    - telephone
+id: contact_message.raschet_stoimosti.field_telephone
+field_name: field_telephone
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: Телефон
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

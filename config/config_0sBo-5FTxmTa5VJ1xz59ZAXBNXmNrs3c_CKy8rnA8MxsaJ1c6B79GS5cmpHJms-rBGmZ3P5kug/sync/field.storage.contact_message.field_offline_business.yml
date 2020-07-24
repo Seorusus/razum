@@ -1,0 +1,60 @@
+uuid: f1f991d8-302d-4658-8178-7af6f8261302
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_offline_business
+field_name: field_offline_business
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: production
+      label: 'Промышленная Компания'
+    -
+      value: construction-company
+      label: 'Строительная Компания'
+    -
+      value: restaurants
+      label: 'Ресторанный бизнес'
+    -
+      value: hire-and-rent
+      label: 'Сервис Проката и аренды'
+    -
+      value: taxi-service
+      label: 'Служба Такси'
+    -
+      value: delivery-service
+      label: 'Служба Доставки'
+    -
+      value: car-dealers
+      label: Автосалона
+    -
+      value: car-repair-service
+      label: 'Станции Техобслуживания'
+    -
+      value: transport-expedition
+      label: 'Транспортная Экспедиция'
+    -
+      value: beauty-salon
+      label: 'Салон Красоты'
+    -
+      value: fitness-club
+      label: 'Фитнес Клуба'
+    -
+      value: banking-business
+      label: 'Банковский Бизнес'
+    -
+      value: medical-company
+      label: 'Медицинской Компании'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

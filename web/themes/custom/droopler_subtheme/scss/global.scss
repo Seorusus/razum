@@ -301,7 +301,7 @@ body {
     }
 
     .site-logo {
-      width: 50%;
+      width: 36%;
 
       @media (max-width: 991.98px) {
     width: 100%;
@@ -348,6 +348,7 @@ body {
         cursor: pointer;
         padding: 12px;
         box-sizing: border-box;
+        border-radius: 5px;
 
         svg {
           display: inline-block;
@@ -385,18 +386,38 @@ body {
       }
     }
 
+    .pers-account {
+      display: block;
+      margin: 0 5px 0 0;
+      font-size: .65em;
+      padding: 22px 10px;
+      border-radius: 5px;
+
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+
     .form-type-select {
       margin-bottom: 0;
 
       .language-select {
-        width: 80px!important;
+        width: 95px !important;
         border-radius: 5px;
         height: 65px;
         margin: 0;
+        border: solid 2px #196dba;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #196dba;
+        cursor: pointer;
 
-        option {
-          height: 10px;
+        &:hover {
+          background: #196dba;
+          color: #ffffff;
         }
+
+
       }
 
       @media (max-width: 991px) {
@@ -427,9 +448,7 @@ body {
   .region-secondary-menu {
     .search-block-form {
       display: none;
-      //@include media-breakpoint-down(md) {
-      //  display: block;
-      //}
+
       @media (max-width: 991px) {
         display: block;
       }
@@ -437,21 +456,63 @@ body {
 
     #block-contacts-2 {
       display: none;
-      //@include media-breakpoint-down(md) {
-      //  display: block;
-      //}
+
       @media (max-width: 991px) {
         display: block;
+        color: #0a6eb4;
+        border-color: #0a6eb4;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        cursor: pointer;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        ._parent {
+        color: #0a6eb4;
+        border-color: #0a6eb4;
+        transition: all 0.3s;
+        cursor: pointer;
+        padding: 12px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        min-width: 94%;
+      }
+
+        &:hover {
+          color: #fff;
+        }
       }
     }
 
     #block-languagedropdownswitcher-2 {
       display: none;
-      //@include media-breakpoint-down(md) {
-      //  display: block;
-      //}
+
       @media (max-width: 991px) {
         display: block;
+      }
+    }
+
+    .pers-account {
+      display: none;
+
+      @media (max-width: 991px) {
+        display: block;
+        padding: 22px 0px;
+        max-width: 94%;
+        color: #0a6eb4;
+        border-color: #0a6eb4;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        cursor: pointer;
+        padding: 22px 12px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        &:hover {
+          color: #fff;
+        }
       }
     }
   }
@@ -489,6 +550,77 @@ body {
     }
   }
 }
+
+/*Form Price*/
+#edit-group-vybor-uslugi {
+    width: 48%;
+    float: left;
+    margin-right: 10px;
+    border-right: 2px solid #104577;
+    padding-right: 10px;
+
+    @media (max-width: 991px) {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+      }
+}
+
+#edit-group-additional-parameters {
+  width: 100%;
+}
+
+#edit-group-vybor-gotovogo-resheniya {
+    width: 50%;
+
+    @media (max-width: 991px) {
+        width: 100%;
+      }
+}
+
+.form-item-field-plan-calls {
+    float: none;
+    width: 51%;
+    margin-right: 60%;
+
+    @media (max-width: 991px) {
+        width: 100%;
+      }
+}
+
+// Button Callback
+.fixed-button {
+    position: fixed;
+    width: 200px;
+    top: 40%;
+    right: 5px;
+    z-index: 999;
+    transform: rotate(-90deg);
+    transform-origin: 77% 0;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #196dba!important;
+    border-color: #196dba!important;
+    color: #ffffff!important;
+
+    &:hover {
+      background-color: #ffffff!important;
+      border-color: #196dba!important;
+      color: #196dba!important;
+    }
+
+    @media (max-width: 991px) {
+        bottom: 0!important;
+        height: 40px;
+        padding-top: 3px;
+        line-height: 35px;
+        z-index: 100001;
+        top: auto;
+        transform: none;
+        transform-origin: unset;
+      }
+}
+
 
   // Footer
   footer {

@@ -1,0 +1,36 @@
+uuid: cf8405a7-88ca-4f13-9195-86aec36605a8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_plan_calls
+field_name: field_plan_calls
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '200'
+      label: 'До 200'
+    -
+      value: '500'
+      label: 'От 200 до 500'
+    -
+      value: '1000'
+      label: 'От 500 до 1000'
+    -
+      value: '5000'
+      label: 'От 1000 до 5000'
+    -
+      value: '10000'
+      label: 'Свыше 5000'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

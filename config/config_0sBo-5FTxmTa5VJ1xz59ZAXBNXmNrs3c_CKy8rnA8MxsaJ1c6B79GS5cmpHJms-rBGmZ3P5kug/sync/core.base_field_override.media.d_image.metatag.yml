@@ -1,0 +1,18 @@
+uuid: 51685e5d-46f4-410d-9bad-8cdb8ada0f24
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+id: media.d_image.metatag
+field_name: metatag
+entity_type: media
+bundle: d_image
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,35 @@
+uuid: ba4bf106-c5dd-4301-975a-d36da4757593
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.call_order
+    - field.field.contact_message.call_order.field_telephone
+    - field.field.contact_message.call_order.field_time_sent
+  module:
+    - telephone
+id: contact_message.call_order.default
+targetEntityType: contact_message
+bundle: call_order
+mode: default
+content:
+  field_telephone:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  field_time_sent: true
+  langcode: true
+  mail: true
+  message: true
+  preview: true
+  subject: true

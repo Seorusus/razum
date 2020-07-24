@@ -1,0 +1,20 @@
+uuid: ba63d2d2-6860-45c2-a1de-8212b00944a4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+id: media.d_image.name
+field_name: name
+entity_type: media
+bundle: d_image
+label: Название
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

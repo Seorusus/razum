@@ -1,0 +1,21 @@
+uuid: 0ba00aff-36ba-41d1-b7b9-5286812f7beb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.service_order
+    - field.storage.contact_message.field_service_order
+  module:
+    - options
+id: contact_message.service_order.field_service_order
+field_name: field_service_order
+entity_type: contact_message
+bundle: service_order
+label: 'Заказать услугу'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

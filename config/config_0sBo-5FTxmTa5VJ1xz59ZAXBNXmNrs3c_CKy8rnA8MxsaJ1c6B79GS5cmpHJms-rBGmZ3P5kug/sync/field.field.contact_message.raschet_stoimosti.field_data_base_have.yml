@@ -1,0 +1,23 @@
+uuid: c5cea26b-1650-449c-afa8-51ccd2cff7a7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_data_base_have
+id: contact_message.raschet_stoimosti.field_data_base_have
+field_name: field_data_base_have
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'Наличие базы данных'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Да
+  off_label: Нет
+field_type: boolean

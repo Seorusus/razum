@@ -1,0 +1,20 @@
+uuid: 2bbead34-a058-435b-a8d0-1ca77351b86c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.menu_link
+field_name: menu_link
+entity_type: node
+bundle: contact
+label: 'Ссылка меню'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

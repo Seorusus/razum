@@ -1,0 +1,11 @@
+uuid: ab995e73-7325-43be-9a91-9e8a5a24e3ed
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+id: contact_message.raschet_stoimosti
+target_entity_type_id: contact_message
+target_bundle: raschet_stoimosti
+default_langcode: site_default
+language_alterable: true

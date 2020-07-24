@@ -1,0 +1,18 @@
+uuid: 8f3adc68-1b7e-4916-9eaa-f0e01d6a417d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+id: block_content.content_block.changed
+field_name: changed
+entity_type: block_content
+bundle: content_block
+label: Изменение
+description: 'Время, когда пользовательский блок был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

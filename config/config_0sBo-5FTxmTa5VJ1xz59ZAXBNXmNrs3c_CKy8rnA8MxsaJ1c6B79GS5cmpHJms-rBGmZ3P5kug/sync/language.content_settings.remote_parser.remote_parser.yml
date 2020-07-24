@@ -1,0 +1,11 @@
+uuid: cb16e0ef-01af-44bc-b215-34ea98f53957
+langcode: ru
+status: true
+dependencies:
+  module:
+    - content_parser
+id: remote_parser.remote_parser
+target_entity_type_id: remote_parser
+target_bundle: remote_parser
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,19 @@
+uuid: 695347da-cca3-4cd6-a1a9-db6703719bef
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_ready_good_des
+    - field.storage.contact_message.field_notice
+id: contact_message.order_ready_good_des.field_notice
+field_name: field_notice
+entity_type: contact_message
+bundle: order_ready_good_des
+label: Пожелание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

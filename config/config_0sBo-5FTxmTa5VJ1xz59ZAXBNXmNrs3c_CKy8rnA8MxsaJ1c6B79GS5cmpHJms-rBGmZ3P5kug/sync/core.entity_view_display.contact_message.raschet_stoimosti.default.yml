@@ -1,0 +1,167 @@
+uuid: bd1e2af6-f19d-4a91-9370-9fc8c3b5f6bb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.field.contact_message.raschet_stoimosti.field_add_chart
+    - field.field.contact_message.raschet_stoimosti.field_add_services
+    - field.field.contact_message.raschet_stoimosti.field_data_base_have
+    - field.field.contact_message.raschet_stoimosti.field_inbound_marketing
+    - field.field.contact_message.raschet_stoimosti.field_offline_business
+    - field.field.contact_message.raschet_stoimosti.field_online_business
+    - field.field.contact_message.raschet_stoimosti.field_outbound_marketing
+    - field.field.contact_message.raschet_stoimosti.field_plan_calls
+    - field.field.contact_message.raschet_stoimosti.field_scenario_call
+    - field.field.contact_message.raschet_stoimosti.field_schedule_operators
+    - field.field.contact_message.raschet_stoimosti.field_telephone
+  module:
+    - field_group
+    - options
+    - telephone
+third_party_settings:
+  field_group:
+    group_vybor_uslugi:
+      children:
+        - field_inbound_marketing
+        - field_outbound_marketing
+        - field_add_services
+        - field_online_business
+        - field_offline_business
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: 'Выбор услуги'
+    group_additional_parameters:
+      children:
+        - field_schedule_operators
+        - field_plan_calls
+        - field_add_chart
+        - field_data_base_have
+        - field_scenario_call
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      region: content
+      format_settings:
+        description: ''
+        id: ''
+        classes: ''
+      label: 'Дополнительные параметры'
+id: contact_message.raschet_stoimosti.default
+targetEntityType: contact_message
+bundle: raschet_stoimosti
+mode: default
+content:
+  field_add_chart:
+    weight: 10
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_add_services:
+    weight: 5
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_data_base_have:
+    weight: 11
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_inbound_marketing:
+    weight: 3
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_offline_business:
+    weight: 7
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_online_business:
+    weight: 6
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_outbound_marketing:
+    weight: 4
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_plan_calls:
+    weight: 9
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_scenario_call:
+    weight: 12
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_schedule_operators:
+    weight: 8
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_telephone:
+    weight: 2
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  mail:
+    weight: 1
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  name:
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true
+  message: true
+  search_api_excerpt: true
+  subject: true

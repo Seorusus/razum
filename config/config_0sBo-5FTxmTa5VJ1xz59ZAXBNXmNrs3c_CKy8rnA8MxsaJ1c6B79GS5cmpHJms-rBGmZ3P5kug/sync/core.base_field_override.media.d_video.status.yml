@@ -1,0 +1,22 @@
+uuid: 51ce8446-e92a-47f1-b55b-4d8c3157ba4b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+id: media.d_video.status
+field_name: status
+entity_type: media
+bundle: d_video
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

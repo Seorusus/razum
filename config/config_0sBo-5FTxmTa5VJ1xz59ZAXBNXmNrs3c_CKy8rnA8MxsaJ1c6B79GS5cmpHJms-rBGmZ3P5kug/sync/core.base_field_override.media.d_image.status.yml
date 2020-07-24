@@ -1,0 +1,22 @@
+uuid: b10014ee-b1b7-4b17-9e01-92fe2379bf4f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+id: media.d_image.status
+field_name: status
+entity_type: media
+bundle: d_image
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

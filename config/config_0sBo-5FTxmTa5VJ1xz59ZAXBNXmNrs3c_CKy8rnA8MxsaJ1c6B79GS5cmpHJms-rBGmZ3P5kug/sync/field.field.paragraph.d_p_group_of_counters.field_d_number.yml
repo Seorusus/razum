@@ -14,7 +14,7 @@ bundle: d_p_group_of_counters
 label: Колонки
 description: 'You can use 1, 2, 3, 4, 6 and 12 columns.'
 required: true
-translatable: true
+translatable: false
 default_value:
   -
     value: 3

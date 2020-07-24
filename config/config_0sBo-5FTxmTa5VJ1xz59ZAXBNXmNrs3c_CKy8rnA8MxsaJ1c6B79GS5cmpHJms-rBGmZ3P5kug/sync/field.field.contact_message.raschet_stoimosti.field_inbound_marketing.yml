@@ -1,0 +1,21 @@
+uuid: 1a825e8e-a632-4166-a4e0-56e2aa67020d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_inbound_marketing
+  module:
+    - options
+id: contact_message.raschet_stoimosti.field_inbound_marketing
+field_name: field_inbound_marketing
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'Входящий Маркетинг'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

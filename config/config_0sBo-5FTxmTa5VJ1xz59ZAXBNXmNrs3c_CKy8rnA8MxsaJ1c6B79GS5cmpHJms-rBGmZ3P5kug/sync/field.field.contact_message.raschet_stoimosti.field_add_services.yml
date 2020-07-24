@@ -1,0 +1,21 @@
+uuid: 70f14907-cc05-4a72-b810-db56cc0ba57d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.raschet_stoimosti
+    - field.storage.contact_message.field_add_services
+  module:
+    - options
+id: contact_message.raschet_stoimosti.field_add_services
+field_name: field_add_services
+entity_type: contact_message
+bundle: raschet_stoimosti
+label: 'Дополнительные услуги'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

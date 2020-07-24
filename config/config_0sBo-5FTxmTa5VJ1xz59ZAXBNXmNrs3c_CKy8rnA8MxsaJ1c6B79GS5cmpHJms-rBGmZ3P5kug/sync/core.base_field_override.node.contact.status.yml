@@ -1,0 +1,22 @@
+uuid: fe5a2f8b-a5ca-4ed5-9f5e-7f1ee65de38e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.status
+field_name: status
+entity_type: node
+bundle: contact
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: c7e25de3-c664-48a9-9648-78a1062a4d44
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_carousel
+id: paragraph.d_p_carousel.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_carousel
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

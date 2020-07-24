@@ -1,0 +1,18 @@
+uuid: 8799f725-d964-4c33-a3b5-cb4d3c5e16f5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+id: shortcut.default.metatag
+field_name: metatag
+entity_type: shortcut
+bundle: default
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,23 @@
+uuid: d2feb255-818d-4983-9b76-e309939f10d6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Узнать стоимость'
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 3
+    page_autoreply_format: plain_text
+id: raschet_stoimosti
+label: 'Расчет стоимости'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+  - vladrazumdp@gmail.com
+reply: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nМы постараемся быстро расчитать стоимость и отправить Вам коммерческое предложение с расчетом.\r\n\r\nС уважением, Олег Креминский\r\nCEO Razum Agency"
+weight: 0
+message: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nМы постараемся быстро расчитать стоимость и отправить Вам коммерческое предложение с расчетом."
+redirect: ''

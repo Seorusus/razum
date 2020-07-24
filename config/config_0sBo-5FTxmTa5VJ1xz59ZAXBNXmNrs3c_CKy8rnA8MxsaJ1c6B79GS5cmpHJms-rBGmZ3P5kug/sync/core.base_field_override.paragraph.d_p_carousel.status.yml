@@ -1,0 +1,22 @@
+uuid: 1aac2f44-1ccb-477c-a89d-bcf0ab5944d0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_carousel
+id: paragraph.d_p_carousel.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_carousel
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

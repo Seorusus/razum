@@ -1,0 +1,18 @@
+uuid: 6e3cc020-5a7b-47fe-ad54-563b140566c2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+id: media.d_document.changed
+field_name: changed
+entity_type: media
+bundle: d_document
+label: Изменение
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,20 @@
+uuid: b0340ced-dfd3-43e5-bf89-2811a7f414a6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+id: media.d_video.uid
+field_name: uid
+entity_type: media
+bundle: d_video
+label: Автор
+description: 'ID автора.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

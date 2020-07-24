@@ -1,0 +1,18 @@
+uuid: 7cbff55d-9151-4d80-b7a1-101b84eff7a3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_data_base_have
+field_name: field_data_base_have
+entity_type: contact_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

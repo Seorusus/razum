@@ -1,0 +1,39 @@
+uuid: cf37a6c9-d892-4ac0-9d71-39b636cea7cf
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_inbound_marketing
+field_name: field_inbound_marketing
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: hot-line
+      label: 'Горячая линия'
+    -
+      value: virtual-secretary
+      label: 'Виртуальный секретарь'
+    -
+      value: reception-orders
+      label: 'Служба приема заказов'
+    -
+      value: support-service
+      label: 'Служба тех.поддержки'
+    -
+      value: call-service
+      label: 'Инфо-справочная служба'
+    -
+      value: free-calls
+      label: 'Бесплатные звонки на 8-800'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
