@@ -21,6 +21,10 @@ body {
   color: #525252!important;
 }
 
+ol.breadcrumb {
+    margin-bottom: -35px;
+}
+
 // Home page
 .half-transparent {
   .d-p-banner {
@@ -714,6 +718,13 @@ body {
 }
 
 /*PRICE BODY CODE START*/
+.price-row {
+  margin-top: 10px;
+
+  ._child {
+    border-right: solid 2px lightgrey;
+  }
+}
 
 #generic_price_table .generic_content{
     overflow: hidden;
@@ -725,17 +736,21 @@ body {
     margin: 0 0 20px 0;
 }
 
-#generic_price_table .generic_content .generic_head_price .generic_head_content{
+#generic_price_table .generic_content .generic_head_price .generic_head_content {
     margin: 0 0 50px 0;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
     border-style: solid;
-    border-width: 90px 1411px 23px 399px;
+    border-width: 90px 1411px 23px 585px;
     position: absolute;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head{
+  ._child {
+    font-size: 1rem;
+    border: none;
+  }
     padding-top: 40px;
     position: relative;
     z-index: 1;

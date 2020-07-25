@@ -23,6 +23,7 @@ module:
   contact_block: 0
   contact_formatter: 0
   contact_storage: 0
+  content_access: 0
   content_parser: 0
   contextual: 0
   ctools: 0
@@ -82,6 +83,7 @@ module:
   link_attributes: 0
   linkit: 0
   locale: 0
+  math_field: 0
   media: 0
   media_library: 0
   menu_ui: 0
