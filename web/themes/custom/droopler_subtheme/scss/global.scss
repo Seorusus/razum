@@ -22,10 +22,22 @@ body {
 }
 
 ol.breadcrumb {
-    margin-bottom: -35px;
+    // margin-bottom: -35px;
+}
+
+// paragraph-sections
+.paragraph-sections>section:first-child>.text-page {
+  margin-top: 0;
 }
 
 // Home page
+
+._service {
+  h1 {
+    color: white;
+    margin-bottom: 26px;
+  }
+}
 .half-transparent {
   .d-p-banner {
     .content-wrapper {
@@ -603,8 +615,8 @@ ol.breadcrumb {
     transform-origin: 77% 0;
     white-space: nowrap;
     overflow: hidden;
-    background-color: #196dba!important;
-    border-color: #196dba!important;
+    background-color: #104577!important;
+    border-color: #ffffff!important;
     color: #ffffff!important;
 
     &:hover {
@@ -623,16 +635,24 @@ ol.breadcrumb {
         transform: none;
         transform-origin: unset;
       }
+
+    .services-apply {
+      background-color: #104577!important;
+      // border-color: #104577!important;
+      border-color: #ffffff!important;
+    }
 }
 
 /*Price list*/
-/* ======================== */
-/*   Syed Sahar Ali Raza    */
-/* ======================== */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-/*body{background-color:#eee;}*/
+
+.price-include {
+    color: white !important;
+    background-color: #104577;
+    padding: 5px 10px;
+}
 
 #generic_price_table{
     background-color: #B6D6F7;
@@ -1086,4 +1106,9 @@ footer {
 h2 {
   text-align: center;
   }
+}
+
+// Call scrIpt
+.page-title {
+    margin-left: 100px;
 }
