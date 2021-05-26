@@ -1,0 +1,23 @@
+uuid: 130a8e3a-2a96-42c7-8744-d238a769fe2b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_settings
+    - paragraphs.paragraphs_type.single_content
+  module:
+    - d_p
+id: paragraph.single_content.field_d_settings
+field_name: field_d_settings
+entity_type: paragraph
+bundle: single_content
+label: 'Paragraph settings'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '{"custom_class":""}'
+default_value_callback: ''
+settings: {  }
+field_type: field_p_configuration_storage

@@ -3,10 +3,21 @@ langcode: ru
 status: true
 dependencies:
   module:
+    - taxonomy
+    - paragraphs
     - node
     - search_api
-    - taxonomy
+    - block_content
+    - contact
   config:
+    - field.storage.node.field_blog_category
+    - field.storage.taxonomy_term.field_d_blog_category
+    - field.storage.block_content.field_d_long_text
+    - field.storage.block_content.field_d_main_title
+    - field.storage.paragraph.field_d_p_cs_item_reference
+    - field.storage.paragraph.field_d_p_sbs_items
+    - field.storage.block_content.field_paragraphs
+    - field.storage.node.field_teaser_text
     - search_api.server.db_server
     - core.entity_view_mode.node.full
 _core:
@@ -24,8 +35,103 @@ field_settings:
     configuration:
       type: concat
       fields:
-        - 'entity:node/body'
+        - 'entity:node/field_blog_category'
+        - 'entity:node/field_teaser_text'
         - 'entity:node/title'
+  description:
+    label: Описание
+    datasource_id: 'entity:taxonomy_term'
+    property_path: description
+    type: text
+    dependencies:
+      module:
+        - taxonomy
+  field_blog_category:
+    label: 'Blog category'
+    datasource_id: 'entity:node'
+    property_path: field_blog_category
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_blog_category
+  field_d_blog_category:
+    label: 'Blog category'
+    datasource_id: 'entity:taxonomy_term'
+    property_path: field_d_blog_category
+    type: string
+    dependencies:
+      config:
+        - field.storage.taxonomy_term.field_d_blog_category
+  field_d_long_text:
+    label: Содержимое
+    datasource_id: 'entity:block_content'
+    property_path: field_d_long_text
+    type: text
+    dependencies:
+      config:
+        - field.storage.block_content.field_d_long_text
+  field_d_main_title:
+    label: Заголовок
+    datasource_id: 'entity:block_content'
+    property_path: field_d_main_title
+    type: string
+    dependencies:
+      config:
+        - field.storage.block_content.field_d_main_title
+  field_d_main_title_1:
+    label: Заголовок
+    datasource_id: 'entity:block_content'
+    property_path: field_d_main_title
+    type: string
+    dependencies:
+      config:
+        - field.storage.block_content.field_d_main_title
+  field_d_p_cs_item_reference:
+    label: 'Элементы » Параграф » Carousel items'
+    datasource_id: 'entity:paragraph'
+    property_path: 'field_d_p_sbs_items:entity:field_d_p_cs_item_reference'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.paragraph.field_d_p_cs_item_reference
+        - field.storage.paragraph.field_d_p_sbs_items
+      module:
+        - paragraphs
+  field_d_p_cs_item_reference_1:
+    label: 'Элементы » Параграф » Carousel items'
+    datasource_id: 'entity:paragraph'
+    property_path: 'field_d_p_sbs_items:entity:field_d_p_cs_item_reference'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.paragraph.field_d_p_cs_item_reference
+        - field.storage.paragraph.field_d_p_sbs_items
+      module:
+        - paragraphs
+  field_paragraphs:
+    label: Параграфы
+    datasource_id: 'entity:block_content'
+    property_path: field_paragraphs
+    type: integer
+    dependencies:
+      config:
+        - field.storage.block_content.field_paragraphs
+  field_teaser_text:
+    label: 'Текст анонса'
+    datasource_id: 'entity:node'
+    property_path: field_teaser_text
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_teaser_text
+  name:
+    label: Название
+    datasource_id: 'entity:taxonomy_term'
+    property_path: name
+    type: string
+    dependencies:
+      module:
+        - taxonomy
   node_grants:
     label: 'Node access information'
     property_path: search_api_node_grants
@@ -53,8 +159,27 @@ field_settings:
     dependencies:
       module:
         - node
+  target_revision_id:
+    label: 'Элементы » Параграф » Carousel items » Параграф revision ID'
+    datasource_id: 'entity:paragraph'
+    property_path: 'field_d_p_sbs_items:entity:field_d_p_cs_item_reference:target_revision_id'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.paragraph.field_d_p_cs_item_reference
+        - field.storage.paragraph.field_d_p_sbs_items
+      module:
+        - paragraphs
   title:
     label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+  title_1:
+    label: Заголовок
     datasource_id: 'entity:node'
     property_path: title
     type: string
@@ -72,6 +197,28 @@ field_settings:
       module:
         - node
 datasource_settings:
+  'entity:block_content':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:contact_message':
+    bundles:
+      default: false
+      selected:
+        - call_order
+        - callback_vacation
+        - feedback
+        - order_ready_good_des
+        - packet_premium
+        - packet_prof
+        - packet_standard
+        - packet_start
+        - personal
+        - raschet_stoimosti
+        - service_order
   'entity:node':
     bundles:
       default: false
@@ -81,11 +228,19 @@ datasource_settings:
     languages:
       default: true
       selected: {  }
+  'entity:paragraph':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
   'entity:taxonomy_term':
     bundles:
       default: false
       selected:
         - blog_posts_category
+        - ready_made_solutions
         - services
         - tags
     languages:
@@ -102,8 +257,16 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_blog_category
+      - field_d_long_text
+      - field_d_main_title
+      - field_d_main_title_1
+      - field_teaser_text
+      - name
       - rendered_item
       - title
+      - title_1
     title: true
     alt: true
     tags:
@@ -119,34 +282,17 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_blog_category
+      - field_d_long_text
+      - field_d_main_title
+      - field_d_main_title_1
+      - field_teaser_text
+      - name
       - rendered_item
       - title
+      - title_1
     ignorable: '[''¿¡!?,.:;]'
-    strip:
-      character_sets:
-        Cc: 0
-        Cf: 0
-        Co: 0
-        Mc: 0
-        Me: 0
-        Mn: 0
-        Pc: Pc
-        Pd: Pd
-        Pe: Pe
-        Pf: Pf
-        Pi: Pi
-        Po: Po
-        Ps: Ps
-        Sc: 0
-        Sk: 0
-        Sm: 0
-        So: 0
-        Zl: 0
-        Zp: 0
-        Zs: 0
-    weights:
-      preprocess_index: -10
-      preprocess_query: -10
     ignorable_classes:
       - Pc
       - Pd
@@ -155,12 +301,23 @@ processor_settings:
       - Pi
       - Po
       - Ps
+    weights:
+      preprocess_index: -10
+      preprocess_query: -10
   ignorecase:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_blog_category
+      - field_d_long_text
+      - field_d_main_title
+      - field_d_main_title_1
+      - field_teaser_text
+      - name
       - rendered_item
       - title
+      - title_1
     weights:
       preprocess_index: -20
       preprocess_query: -20
@@ -170,6 +327,9 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_long_text
+      - field_teaser_text
       - rendered_item
     exceptions:
       mexican: mexic
@@ -181,6 +341,9 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_long_text
+      - field_teaser_text
       - rendered_item
     stopwords:
       - a
@@ -225,6 +388,9 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_long_text
+      - field_teaser_text
       - rendered_item
     spaces: ''
     overlap_cjk: 1
@@ -236,8 +402,16 @@ processor_settings:
     all_fields: true
     fields:
       - aggregated_field
+      - description
+      - field_d_blog_category
+      - field_d_long_text
+      - field_d_main_title
+      - field_d_main_title_1
+      - field_teaser_text
+      - name
       - rendered_item
       - title
+      - title_1
     weights:
       preprocess_index: -20
       preprocess_query: -20

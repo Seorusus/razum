@@ -17,9 +17,9 @@ required: false
 translatable: false
 default_value:
   -
-    value: ''
+    value: '[current-date:html_datetime] прошло времени [current-date:since]'
 default_value_callback: ''
 settings:
-  field_value: '[current-date:html_datetime] прошло времени [current-date:since]'
-  remove_empty: 1
+  field_value: '[current-date:html_datetime]'
+  remove_empty: 0
 field_type: field_token_value

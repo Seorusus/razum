@@ -1,0 +1,11 @@
+uuid: 907d393a-2455-4dc5-91a7-8414807dc9aa
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.service_order
+id: contact_message.service_order
+target_entity_type_id: contact_message
+target_bundle: service_order
+default_langcode: current_interface
+language_alterable: true

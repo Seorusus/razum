@@ -1,0 +1,11 @@
+uuid: 8ecc789b-ba02-4c24-a10f-2bc9183d398d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.call_order
+id: contact_message.call_order
+target_entity_type_id: contact_message
+target_bundle: call_order
+default_langcode: current_interface
+language_alterable: true

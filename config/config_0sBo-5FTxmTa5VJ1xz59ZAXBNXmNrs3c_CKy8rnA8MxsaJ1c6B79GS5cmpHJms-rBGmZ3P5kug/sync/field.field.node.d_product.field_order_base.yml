@@ -1,0 +1,24 @@
+uuid: ebf59b55-d6ff-4e84-828a-3cf370e9113d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order_base
+    - node.type.d_product
+  module:
+    - text
+id: node.d_product.field_order_base
+field_name: field_order_base
+entity_type: node
+bundle: d_product
+label: Order_base
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '<p><button class="btn btn-outline-primary" data-target="#orderbase" data-toggle="modal" type="button">Заказать базу</button></p>'
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text

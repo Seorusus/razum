@@ -1,0 +1,11 @@
+uuid: e621ce52-7b6b-4ba1-b85d-6cb046e83f9b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.callback_vacation
+id: contact_message.callback_vacation
+target_entity_type_id: contact_message
+target_bundle: callback_vacation
+default_langcode: current_interface
+language_alterable: true

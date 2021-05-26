@@ -1,0 +1,18 @@
+uuid: 12a9a645-052b-4a26-9e7c-2f2ef44e3b49
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.bases
+id: node.bases.title
+field_name: title
+entity_type: node
+bundle: bases
+label: Заголовок
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,37 @@
+uuid: f29a52bb-07a9-4eb4-b02e-1ee84c8ce907
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_base
+    - field.field.contact_message.order_base.field_time_sent
+    - field.field.contact_message.order_base.field_type_service
+id: contact_message.order_base.default
+targetEntityType: contact_message
+bundle: order_base
+mode: default
+content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  field_time_sent: true
+  field_type_service: true
+  message: true
+  preview: true
+  subject: true

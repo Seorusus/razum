@@ -1,0 +1,18 @@
+uuid: 717bbd75-6d7d-4522-8d3c-864a7d71b613
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tip_zvonka
+id: taxonomy_term.tip_zvonka.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: tip_zvonka
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

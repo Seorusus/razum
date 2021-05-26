@@ -1,0 +1,27 @@
+uuid: 7b0d3cb8-db49-4bff-844d-8447fb9a389c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.callback_vacation
+    - field.storage.contact_message.field_resume
+  module:
+    - file
+id: contact_message.callback_vacation.field_resume
+field_name: field_resume
+entity_type: contact_message
+bundle: callback_vacation
+label: 'Прикрепить резюме'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: '500 KB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

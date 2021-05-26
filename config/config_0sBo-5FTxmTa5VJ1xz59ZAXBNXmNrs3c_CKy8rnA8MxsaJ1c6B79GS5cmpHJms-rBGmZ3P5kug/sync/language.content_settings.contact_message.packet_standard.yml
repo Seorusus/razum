@@ -1,0 +1,11 @@
+uuid: b155e74d-e2ed-45b8-8e58-0b0c1be6a686
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_standard
+id: contact_message.packet_standard
+target_entity_type_id: contact_message
+target_bundle: packet_standard
+default_langcode: current_interface
+language_alterable: true

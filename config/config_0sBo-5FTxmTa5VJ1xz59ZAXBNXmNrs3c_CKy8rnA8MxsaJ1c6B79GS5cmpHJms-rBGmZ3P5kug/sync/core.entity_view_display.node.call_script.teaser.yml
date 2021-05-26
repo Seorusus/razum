@@ -1,0 +1,28 @@
+uuid: c41ed888-a675-498a-a5dd-42b27558cb27
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.call_script.field_call_category
+    - field.field.node.call_script.field_call_crypt
+    - field.field.node.call_script.field_pdf
+    - node.type.call_script
+  module:
+    - user
+id: node.call_script.teaser
+targetEntityType: node
+bundle: call_script
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_call_category: true
+  field_call_crypt: true
+  field_pdf: true
+  langcode: true
+  search_api_excerpt: true

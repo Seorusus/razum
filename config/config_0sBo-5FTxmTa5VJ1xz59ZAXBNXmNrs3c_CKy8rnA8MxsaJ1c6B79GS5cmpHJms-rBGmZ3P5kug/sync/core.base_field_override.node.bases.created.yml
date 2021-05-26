@@ -1,0 +1,18 @@
+uuid: 0002a0ea-8304-4a95-b87e-1878707b21f0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.bases
+id: node.bases.created
+field_name: created
+entity_type: node
+bundle: bases
+label: 'Время создания'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

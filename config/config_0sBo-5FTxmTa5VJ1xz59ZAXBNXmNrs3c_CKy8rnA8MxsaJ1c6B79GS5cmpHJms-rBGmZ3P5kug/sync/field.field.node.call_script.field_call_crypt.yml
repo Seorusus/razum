@@ -1,0 +1,22 @@
+uuid: 58cf5618-aec7-4250-b644-0d1696602e51
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_call_crypt
+    - node.type.call_script
+  module:
+    - faqfield
+id: node.call_script.field_call_crypt
+field_name: field_call_crypt
+entity_type: node
+bundle: call_script
+label: 'Call crypt'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  default_format: full_html
+field_type: faqfield

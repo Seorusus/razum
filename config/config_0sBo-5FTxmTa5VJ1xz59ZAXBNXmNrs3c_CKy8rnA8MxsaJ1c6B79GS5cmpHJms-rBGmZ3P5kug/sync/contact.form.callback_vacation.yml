@@ -1,0 +1,24 @@
+uuid: d34702b6-61cb-4d38-8d22-56c583562fb7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Откликнуться
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 3
+    page_autoreply_format: plain_text
+id: callback_vacation
+label: 'Отклик на вакансию'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+  - vladrazumdp@gmail.com
+  - ankremm@gmail.com
+reply: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nМы получили Ваш отклик на вакансию, после ознакомления с Вашим резюме с Вам свяжется менеджер агенства.\r\n\r\nС уважением, Олег Креминский\r\nCEO Razum Agency"
+weight: 0
+message: "Спасибо за обращение в колл-центр \"Razum Agency\".\r\nМы получили Ваш отклик на вакансию, после ознакомления с Вашим резюме с Вам свяжется менеджер агенства."
+redirect: /

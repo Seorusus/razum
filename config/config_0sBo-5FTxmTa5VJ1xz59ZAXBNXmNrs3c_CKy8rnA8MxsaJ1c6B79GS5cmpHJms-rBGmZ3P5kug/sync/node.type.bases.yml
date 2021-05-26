@@ -1,0 +1,18 @@
+uuid: eb9e0a70-64ad-4cff-89c2-18d28bc3cee4
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'База предприятий'
+type: bases
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

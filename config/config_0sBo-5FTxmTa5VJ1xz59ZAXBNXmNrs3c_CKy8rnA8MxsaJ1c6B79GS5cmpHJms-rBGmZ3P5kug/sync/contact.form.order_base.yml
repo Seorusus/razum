@@ -1,0 +1,22 @@
+uuid: f71c2dc2-6992-4167-bccc-d6531be7c826
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Заказать базу'
+    show_preview: false
+    disabled_form_message: 'Эта контактная форма отключена.'
+    maximum_submissions_user: 40
+    page_autoreply_format: plain_text
+id: order_base
+label: 'Заказать базу'
+recipients:
+  - info@razum.agency
+  - seorusus@gmail.com
+reply: ''
+weight: 0
+message: "Спасибо за заказ базы.\r\nПосле получения оплаты, направим Вам ссылку на скачивание."
+redirect: ''

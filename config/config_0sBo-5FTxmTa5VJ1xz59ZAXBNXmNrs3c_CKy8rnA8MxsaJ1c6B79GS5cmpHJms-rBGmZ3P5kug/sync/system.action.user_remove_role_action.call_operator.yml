@@ -1,0 +1,14 @@
+uuid: e8fa14c2-2278-4e53-b60e-2a150ed96a3e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.call_operator
+  module:
+    - user
+id: user_remove_role_action.call_operator
+label: 'Удалить роль Колл оператор из выбранных пользователей'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: call_operator

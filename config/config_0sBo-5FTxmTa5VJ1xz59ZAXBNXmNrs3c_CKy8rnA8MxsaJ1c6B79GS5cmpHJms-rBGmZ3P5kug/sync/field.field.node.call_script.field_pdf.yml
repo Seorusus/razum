@@ -1,0 +1,27 @@
+uuid: 20a40a40-65a5-47e9-b1bd-7ea41836f8c3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf
+    - node.type.call_script
+  module:
+    - file
+id: node.call_script.field_pdf
+field_name: field_pdf
+entity_type: node
+bundle: call_script
+label: Pdf
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

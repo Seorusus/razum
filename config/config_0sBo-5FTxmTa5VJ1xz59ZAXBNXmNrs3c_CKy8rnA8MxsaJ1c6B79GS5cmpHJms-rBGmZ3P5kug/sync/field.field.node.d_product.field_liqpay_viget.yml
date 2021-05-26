@@ -1,0 +1,21 @@
+uuid: 9ed91d3c-2b3a-42f9-9e12-71179fec891a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liqpay_viget
+    - node.type.d_product
+  module:
+    - text
+id: node.d_product.field_liqpay_viget
+field_name: field_liqpay_viget
+entity_type: node
+bundle: d_product
+label: 'Купить через Liqpay'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

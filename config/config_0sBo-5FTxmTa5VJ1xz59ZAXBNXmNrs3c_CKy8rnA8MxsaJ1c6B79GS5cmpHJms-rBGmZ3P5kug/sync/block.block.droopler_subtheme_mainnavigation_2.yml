@@ -11,7 +11,7 @@ _core:
 id: droopler_subtheme_mainnavigation_2
 theme: droopler_subtheme
 region: primary_menu
-weight: -10
+weight: -15
 provider: null
 plugin: 'we_megamenu_block:main'
 settings:

@@ -1,0 +1,11 @@
+uuid: 7f31788f-5f67-4266-b66f-8d2b47516ba4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.packet_start
+id: contact_message.packet_start
+target_entity_type_id: contact_message
+target_bundle: packet_start
+default_langcode: current_interface
+language_alterable: true

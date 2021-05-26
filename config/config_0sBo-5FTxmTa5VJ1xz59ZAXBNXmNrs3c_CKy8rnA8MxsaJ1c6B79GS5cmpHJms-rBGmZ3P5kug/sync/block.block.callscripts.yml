@@ -1,0 +1,42 @@
+uuid: 2fb17055-fff7-4d8b-a9c4-248972ed2a5b
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:ecdbe00c-2fdd-40e9-bd40-8ff6fc162c59'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - droopler_subtheme
+id: callscripts
+theme: droopler_subtheme
+region: breadcrumb
+weight: -13
+provider: null
+plugin: 'block_content:ecdbe00c-2fdd-40e9-bd40-8ff6fc162c59'
+settings:
+  id: 'block_content:ecdbe00c-2fdd-40e9-bd40-8ff6fc162c59'
+  label: 'Call Scripts'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      d_editor: d_editor
+      call_operator: call_operator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: /call-scripts
+    negate: true
+    context_mapping: {  }

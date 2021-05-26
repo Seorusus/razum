@@ -7,5 +7,18 @@ _core:
 id: global
 label: Глобальный
 tags:
+  abstract: 'Пакетні рішення для ефективної роботи вашого бiзнесу'
+  description: 'Пакетні рішення для ефективної роботи вашого бiзнесу. Услуги удаленного колл-центра.'
   canonical_url: '[current-page:url]'
-  title: '[current-page:title] | [site:name]'
+  geo_placename: 'Dnepr, Ukraine'
+  title: 'ᐈ Услуги колл-центра | Колл-Центр Razum Agency'
+  referrer: no-referrer
+  shortlink: '[site:url]'
+  image_src: /sites/default/files/razum-logo.jpg
+  robots: 'index, follow'
+  keywords: 'aутсорсинговий колл-центр,Колл-Центр,call-center,call-центр,услуги колл центра в украине,услуги колл центра,call center,колл центр в украине,center call,call center ce,колл центр аутсорсинг,услуги call центра,аутсорсинг колл центр,call центр услуги'
+  content_language: ua
+  next: /services
+  news_keywords: 'aутсорсинговий колл-центр,Колл-Центр,call-center,call-центр,услуги колл центра в украине,услуги колл центра,call center,колл центр в украине,center call,call center ce,колл центр аутсорсинг,услуги call центра,аутсорсинг колл центр,call центр услуги'
+  og_description: 'Пакетні рішення для ефективної роботи вашого бiзнесу'
+  og_title: 'ᐈ Услуги колл-центра в Украине | Колл-Центр Razum Agency'

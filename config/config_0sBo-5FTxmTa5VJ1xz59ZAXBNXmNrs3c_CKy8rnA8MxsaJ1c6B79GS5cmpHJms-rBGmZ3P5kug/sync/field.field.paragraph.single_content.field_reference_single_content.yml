@@ -1,0 +1,36 @@
+uuid: 4761b6cd-e1f2-4763-81fc-549ba4c8f01a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_reference_single_content
+    - node.type.bases
+    - node.type.blog_post
+    - node.type.call_script
+    - node.type.contact
+    - node.type.d_product
+    - paragraphs.paragraphs_type.single_content
+id: paragraph.single_content.field_reference_single_content
+field_name: field_reference_single_content
+entity_type: paragraph
+bundle: single_content
+label: 'Reference single content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      bases: bases
+      contact: contact
+      blog_post: blog_post
+      call_script: call_script
+      d_product: d_product
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: blog_post
+field_type: entity_reference

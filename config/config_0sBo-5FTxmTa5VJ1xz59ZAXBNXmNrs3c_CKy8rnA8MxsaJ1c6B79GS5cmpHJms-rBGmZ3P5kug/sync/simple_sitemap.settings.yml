@@ -11,6 +11,8 @@ enabled_entity_types:
   - node
   - taxonomy_term
   - menu_link_content
+  - block_content
+  - media
 default_variant: default
 _core:
   default_config_hash: LdFXnqGZBU8cKkP-46Q6Oq82uMdt6neBwxdcV8aCOaI

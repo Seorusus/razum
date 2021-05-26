@@ -1,0 +1,147 @@
+uuid: b0ec52d7-70d5-427b-b994-e51d0f53ef9c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.single_conte
+    - field.field.node.d_product.body
+    - field.field.node.d_product.field_bay_base
+    - field.field.node.d_product.field_companies_quantity
+    - field.field.node.d_product.field_d_ask_for_product
+    - field.field.node.d_product.field_d_product_link
+    - field.field.node.d_product.field_d_product_media
+    - field.field.node.d_product.field_link_to_base_page
+    - field.field.node.d_product.field_liqpay_link
+    - field.field.node.d_product.field_liqpay_viget
+    - field.field.node.d_product.field_order_base
+    - field.field.node.d_product.field_page_section
+    - field.field.node.d_product.field_price
+    - field.field.node.d_product.field_product_categories
+    - field.field.node.d_product.field_product_images_teaser
+    - field.field.node.d_product.field_tags
+    - field.field.node.d_product.field_test_list
+    - node.type.d_product
+    - responsive_image.styles.blog_images_style
+  module:
+    - entity_reference_revisions
+    - field_token_value
+    - file
+    - lazy
+    - svg_image_responsive
+    - text
+    - user
+_core:
+  default_config_hash: ZoNrSd5-Pji7srCiIwnJkr5lqN888lsfby3Hiy8srIc
+id: node.d_product.single_conte
+targetEntityType: node
+bundle: d_product
+mode: single_conte
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_companies_quantity:
+    type: number_integer
+    weight: 8
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_link_to_base_page:
+    type: field_token_value_text
+    weight: 10
+    region: content
+    label: hidden
+    settings:
+      wrapper: div
+    third_party_settings: {  }
+  field_order_base:
+    type: text_default
+    weight: 9
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_page_section:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  field_price:
+    type: number_decimal
+    weight: 7
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_product_categories:
+    weight: 5
+    label: inline
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_product_images_teaser:
+    type: responsive_image
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      responsive_image_style: blog_images_style
+      image_link: content
+      svg_render_as_image: '1'
+      svg_attributes:
+        width: '479'
+        height: '286'
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+        placeholder_style: product_thumbnail_pc
+        data_uri: true
+  field_tags:
+    weight: 6
+    label: inline
+    settings:
+      link: false
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_test_list:
+    weight: 4
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_bay_base: true
+  field_d_ask_for_product: true
+  field_d_product_link: true
+  field_d_product_media: true
+  field_liqpay_link: true
+  field_liqpay_viget: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,11 @@
+uuid: 789f2d86-2ba9-4950-8bf4-421a942669eb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_ready_good_des
+id: contact_message.order_ready_good_des
+target_entity_type_id: contact_message
+target_bundle: order_ready_good_des
+default_langcode: current_interface
+language_alterable: true

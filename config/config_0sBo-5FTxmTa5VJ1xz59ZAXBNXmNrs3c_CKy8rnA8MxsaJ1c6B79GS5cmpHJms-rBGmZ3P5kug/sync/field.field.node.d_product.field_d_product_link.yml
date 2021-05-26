@@ -16,7 +16,7 @@ bundle: d_product
 label: 'Product link'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     attributes: {  }

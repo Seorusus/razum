@@ -1,0 +1,22 @@
+uuid: ec39c406-3de1-4490-a044-c1d7f4bc3d95
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.single_content
+id: paragraph.single_content.status
+field_name: status
+entity_type: paragraph
+bundle: single_content
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

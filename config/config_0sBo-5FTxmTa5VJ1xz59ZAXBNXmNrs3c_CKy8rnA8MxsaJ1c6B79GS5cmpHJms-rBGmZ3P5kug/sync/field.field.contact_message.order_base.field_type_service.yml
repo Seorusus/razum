@@ -1,0 +1,25 @@
+uuid: 62fd7302-ea96-4dbb-8f6d-143a2e7c016a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_base
+    - field.storage.contact_message.field_type_service
+  module:
+    - field_token_value
+id: contact_message.order_base.field_type_service
+field_name: field_type_service
+entity_type: contact_message
+bundle: order_base
+label: База
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '[current-page:title]'
+default_value_callback: ''
+settings:
+  field_value: '[current-page:title]'
+  remove_empty: 0
+field_type: field_token_value

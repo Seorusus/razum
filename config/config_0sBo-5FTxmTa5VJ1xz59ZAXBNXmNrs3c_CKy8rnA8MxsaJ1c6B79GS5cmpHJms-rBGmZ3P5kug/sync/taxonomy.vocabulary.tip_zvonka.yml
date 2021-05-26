@@ -1,0 +1,8 @@
+uuid: 61e8979b-b326-4253-bb33-2e2325091821
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Тип звонка'
+vid: tip_zvonka
+description: ''
+weight: 0

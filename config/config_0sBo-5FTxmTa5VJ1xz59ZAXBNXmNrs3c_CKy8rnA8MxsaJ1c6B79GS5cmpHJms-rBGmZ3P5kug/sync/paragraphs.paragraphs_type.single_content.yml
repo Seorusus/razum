@@ -1,0 +1,10 @@
+uuid: f1b1319c-2620-4163-b7c3-52ee7c03e6c2
+langcode: ru
+status: true
+dependencies: {  }
+id: single_content
+label: 'Single content'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

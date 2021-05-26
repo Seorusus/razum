@@ -1,11 +1,21 @@
 uuid: ff33c03c-0dfa-4feb-bce6-bd114d723715
 langcode: ru
-status: false
+status: true
 dependencies: {  }
 _core:
   default_config_hash: GCxIH5xTUwVsb4Vo-JDmUHcq-Ye7ds-NYKw9tRDMLYA
 id: front
 label: 'Главная страница'
 tags:
+  abstract: "Готовые Решения для:\r\nИнтернет-торговли\r\nIT бизнеса\r\nИнтернет-провайдера\r\nРекламного Бизнеса\r\nСетевой торговли\r\nСтраховой Компании\r\nДля Лидогенерации\r\nПромышленной Компании\r\nРесторанного бизнеса\r\nи другие"
+  description: 'Услуги колл-центра в Украине | ✔️RAZUMное Агентство Привлечения Клиентов '
   canonical_url: '[site:url]'
+  geo_placename: 'Dnepr, Ukraine'
+  title: 'Услуги колл-центра в Украине | Колл-Центр "Razum Agency"'
+  referrer: no-referrer
   shortlink: '[site:url]'
+  prev: /about-us
+  image_src: /sites/default/files/razum-logo.jpg
+  robots: index
+  keywords: 'Услуги колл-центра в Украине,Аутсорсинговий колл-центр,Услуги колл-центра,Колл-Центр,call-center,call-центр'
+  next: /services

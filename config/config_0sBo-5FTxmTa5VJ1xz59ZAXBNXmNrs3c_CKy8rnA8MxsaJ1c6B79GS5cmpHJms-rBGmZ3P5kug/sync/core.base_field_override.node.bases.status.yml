@@ -1,0 +1,22 @@
+uuid: e3ac04e2-987c-4c3a-b85c-271a0c1ae09f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.bases
+id: node.bases.status
+field_name: status
+entity_type: node
+bundle: bases
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

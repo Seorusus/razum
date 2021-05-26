@@ -3,6 +3,7 @@ langcode: ru
 status: true
 dependencies:
   config:
+    - field.field.node.content_page.field_meta_tag
     - field.field.node.content_page.field_page_section
     - field.field.node.content_page.field_service_type
     - field.field.node.content_page.field_teaser_media_image
@@ -12,6 +13,7 @@ dependencies:
   module:
     - field_group
     - media_library
+    - metatag
     - paragraphs
     - path
 third_party_settings:
@@ -43,6 +45,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_meta_tag:
+    weight: 26
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_page_section:
     weight: 11
     settings:

@@ -1,0 +1,10 @@
+uuid: 48112e47-0e76-424c-8565-5b7e6a03569a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.single_conte
+label: 'Single content'
+targetEntityType: node
+cache: true

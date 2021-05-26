@@ -1,0 +1,55 @@
+uuid: d8454b78-3375-4cc2-b5e2-98b0796f4841
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.callback_vacation
+    - field.field.contact_message.callback_vacation.field_notice
+    - field.field.contact_message.callback_vacation.field_resume
+    - field.field.contact_message.callback_vacation.field_telephone
+  module:
+    - file
+    - telephone
+id: contact_message.callback_vacation.default
+targetEntityType: contact_message
+bundle: callback_vacation
+mode: default
+content:
+  field_notice:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: 'Напишите несколько строк о себе'
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_resume:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_telephone:
+    weight: -38
+    settings:
+      placeholder: 'По какому номеру мы можем с вами связаться?'
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  mail:
+    weight: -40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  langcode: true
+  message: true
+  preview: true
+  subject: true

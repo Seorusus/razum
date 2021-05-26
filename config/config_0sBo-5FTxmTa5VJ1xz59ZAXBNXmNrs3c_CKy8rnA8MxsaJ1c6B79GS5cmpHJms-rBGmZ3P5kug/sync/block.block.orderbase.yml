@@ -1,0 +1,23 @@
+uuid: 6a472102-8948-4696-b760-9fe18c42c826
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_base
+  module:
+    - contact_block
+  theme:
+    - droopler_subtheme
+id: orderbase
+theme: droopler_subtheme
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Order base'
+  provider: contact_block
+  label_display: '0'
+  contact_form: order_base
+visibility: {  }

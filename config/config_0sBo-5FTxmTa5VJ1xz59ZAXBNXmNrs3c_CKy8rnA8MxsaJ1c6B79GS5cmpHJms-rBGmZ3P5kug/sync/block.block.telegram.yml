@@ -1,0 +1,25 @@
+uuid: 04fde523-7cae-4c42-a723-5686f0ea0a4d
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:c290e8d7-730f-4949-a854-631addec854d'
+  module:
+    - block_content
+  theme:
+    - droopler_subtheme
+id: telegram
+theme: droopler_subtheme
+region: header
+weight: -14
+provider: null
+plugin: 'block_content:c290e8d7-730f-4949-a854-631addec854d'
+settings:
+  id: 'block_content:c290e8d7-730f-4949-a854-631addec854d'
+  label: Telegram
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

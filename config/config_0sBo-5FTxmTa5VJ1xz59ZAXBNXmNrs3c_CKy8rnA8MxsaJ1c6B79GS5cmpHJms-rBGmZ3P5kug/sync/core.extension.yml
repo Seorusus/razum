@@ -1,10 +1,6 @@
 module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
-  advagg: 0
-  advagg_css_minify: 0
-  advagg_js_minify: 0
-  advagg_mod: 0
   better_exposed_filters: 0
   better_search: 0
   block: 0
@@ -18,6 +14,7 @@ module:
   color: 0
   colorbox: 0
   config: 0
+  config_translation: 0
   config_update: 0
   contact: 0
   contact_block: 0
@@ -40,7 +37,6 @@ module:
   d_p_counters: 0
   d_p_form: 0
   d_p_gallery: 0
-  d_p_help: 0
   d_p_media: 0
   d_p_node: 0
   d_p_reference_content: 0
@@ -61,6 +57,7 @@ module:
   entity_reference_display: 0
   entity_reference_revisions: 0
   facets: 0
+  faqfield: 0
   features: 0
   features_ui: 0
   field: 0
@@ -83,17 +80,21 @@ module:
   link_attributes: 0
   linkit: 0
   locale: 0
+  mailsystem: 0
   math_field: 0
   media: 0
   media_library: 0
   menu_ui: 0
   metatag: 0
   metatag_open_graph: 0
+  mimemail: 0
+  mimemail_example: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  pdf: 0
   rdf: 0
   redirect: 0
   responsive_image: 0
@@ -115,6 +116,7 @@ module:
   user: 0
   views_ui: 0
   we_megamenu: 0
+  webp: 0
   menu_link_content: 1
   pathauto: 1
   content_translation: 10

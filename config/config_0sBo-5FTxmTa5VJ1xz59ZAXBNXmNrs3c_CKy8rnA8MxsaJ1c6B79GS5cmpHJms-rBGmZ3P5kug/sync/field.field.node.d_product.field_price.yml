@@ -1,0 +1,23 @@
+uuid: 7ec2f1de-4f25-4938-8d03-f95f18ef1404
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.d_product
+id: node.d_product.field_price
+field_name: field_price
+entity_type: node
+bundle: d_product
+label: Цена
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' грн.'
+field_type: decimal

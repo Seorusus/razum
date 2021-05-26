@@ -1,0 +1,18 @@
+uuid: 9dacb208-edc5-4f14-be9d-93457e541d95
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.call_script
+id: node.call_script.metatag
+field_name: metatag
+entity_type: node
+bundle: call_script
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

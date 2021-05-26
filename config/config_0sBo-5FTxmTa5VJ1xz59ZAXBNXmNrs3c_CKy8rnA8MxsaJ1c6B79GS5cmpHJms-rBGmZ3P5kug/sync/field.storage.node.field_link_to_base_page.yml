@@ -1,0 +1,19 @@
+uuid: 93cd85cf-d48f-4c4e-9356-14173a7c9ffd
+langcode: ru
+status: true
+dependencies:
+  module:
+    - field_token_value
+    - node
+id: node.field_link_to_base_page
+field_name: field_link_to_base_page
+entity_type: node
+type: field_token_value
+settings: {  }
+module: field_token_value
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

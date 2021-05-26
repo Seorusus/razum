@@ -1,0 +1,33 @@
+uuid: b3c1f262-03ea-474f-a506-0b9ed6c0b4ab
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.single_content.field_d_settings
+    - field.field.paragraph.single_content.field_reference_single_content
+    - paragraphs.paragraphs_type.single_content
+  module:
+    - d_p
+id: paragraph.single_content.default
+targetEntityType: paragraph
+bundle: single_content
+mode: default
+content:
+  field_d_settings:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_configuration_formatter
+    region: content
+  field_reference_single_content:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: single_conte
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

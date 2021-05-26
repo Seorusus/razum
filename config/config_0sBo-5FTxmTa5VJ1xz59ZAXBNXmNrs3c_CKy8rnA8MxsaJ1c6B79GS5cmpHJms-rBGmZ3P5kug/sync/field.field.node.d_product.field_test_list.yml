@@ -1,0 +1,27 @@
+uuid: 6f43b3c8-340b-4100-9802-13002cf20e93
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_list
+    - node.type.d_product
+  module:
+    - file
+id: node.d_product.field_test_list
+field_name: field_test_list
+entity_type: node
+bundle: d_product
+label: 'Демо версия базы'
+description: 'Скачать демо версию из 100 компаний — бесплатно'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'bases/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf svg xlsx'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -11,7 +11,7 @@ bundle: d_product
 label: Мета-теги
 description: 'Мета-теги для сущности.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,0 +1,11 @@
+uuid: b5d6a88d-69d5-4eec-a571-2e29d7c77e42
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.order_base
+id: contact_message.order_base
+target_entity_type_id: contact_message
+target_bundle: order_base
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,9 @@
+uuid: bd5031d3-1066-4e4b-87ea-9ad56d0c07d1
+langcode: ru
+status: true
+dependencies: {  }
+id: call_operator
+label: 'Колл оператор'
+weight: 4
+is_admin: null
+permissions: {  }

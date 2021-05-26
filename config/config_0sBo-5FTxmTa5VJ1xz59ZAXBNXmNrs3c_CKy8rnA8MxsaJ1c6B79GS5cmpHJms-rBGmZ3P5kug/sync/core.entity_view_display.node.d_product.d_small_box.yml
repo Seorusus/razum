@@ -5,12 +5,21 @@ dependencies:
   config:
     - core.entity_view_mode.node.d_small_box
     - field.field.node.d_product.body
+    - field.field.node.d_product.field_bay_base
+    - field.field.node.d_product.field_companies_quantity
     - field.field.node.d_product.field_d_ask_for_product
     - field.field.node.d_product.field_d_product_link
     - field.field.node.d_product.field_d_product_media
+    - field.field.node.d_product.field_link_to_base_page
+    - field.field.node.d_product.field_liqpay_link
+    - field.field.node.d_product.field_liqpay_viget
+    - field.field.node.d_product.field_order_base
     - field.field.node.d_product.field_page_section
+    - field.field.node.d_product.field_price
     - field.field.node.d_product.field_product_categories
+    - field.field.node.d_product.field_product_images_teaser
     - field.field.node.d_product.field_tags
+    - field.field.node.d_product.field_test_list
     - image.style.small_box_image
     - node.type.d_product
   module:
@@ -37,11 +46,20 @@ content:
         lazy_image: '1'
 hidden:
   body: true
+  field_bay_base: true
+  field_companies_quantity: true
   field_d_ask_for_product: true
   field_d_product_link: true
+  field_link_to_base_page: true
+  field_liqpay_link: true
+  field_liqpay_viget: true
+  field_order_base: true
   field_page_section: true
+  field_price: true
   field_product_categories: true
+  field_product_images_teaser: true
   field_tags: true
+  field_test_list: true
   langcode: true
   links: true
   search_api_excerpt: true

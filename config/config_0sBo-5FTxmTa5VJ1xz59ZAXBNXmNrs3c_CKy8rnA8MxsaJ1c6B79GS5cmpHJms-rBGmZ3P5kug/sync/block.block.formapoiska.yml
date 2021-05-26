@@ -9,7 +9,7 @@ dependencies:
 id: formapoiska
 theme: droopler_subtheme
 region: header
-weight: -9
+weight: -15
 provider: null
 plugin: search_form_block
 settings:

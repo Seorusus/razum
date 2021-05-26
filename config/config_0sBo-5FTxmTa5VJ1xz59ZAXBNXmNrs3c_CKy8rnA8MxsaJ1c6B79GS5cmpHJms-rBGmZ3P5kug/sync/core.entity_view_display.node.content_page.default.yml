@@ -3,6 +3,7 @@ langcode: ru
 status: true
 dependencies:
   config:
+    - field.field.node.content_page.field_meta_tag
     - field.field.node.content_page.field_page_section
     - field.field.node.content_page.field_service_type
     - field.field.node.content_page.field_teaser_media_image
@@ -11,6 +12,7 @@ dependencies:
     - node.type.content_page
   module:
     - entity_reference_revisions
+    - metatag
     - user
 _core:
   default_config_hash: WvPOM504OSyaCp7ScLpzFpTT8CiM3_bnmbcshDFCrtE
@@ -19,6 +21,13 @@ targetEntityType: node
 bundle: content_page
 mode: default
 content:
+  field_meta_tag:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_page_section:
     weight: 0
     label: hidden

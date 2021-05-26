@@ -288,7 +288,7 @@ display:
       display_extenders: {  }
       path: blog
       rendering_language: '***LANGUAGE_language_interface***'
-      title: Блог
+      title: 'Наш блог | Колл-центр "Razum Agency"'
       defaults:
         title: false
         arguments: false

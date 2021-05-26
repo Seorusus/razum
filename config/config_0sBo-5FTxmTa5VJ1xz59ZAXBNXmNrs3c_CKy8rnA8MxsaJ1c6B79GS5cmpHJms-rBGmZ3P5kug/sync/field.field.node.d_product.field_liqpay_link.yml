@@ -1,0 +1,23 @@
+uuid: b430067e-3eef-4837-9dd0-a8aec0ce31d2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liqpay_link
+    - node.type.d_product
+  module:
+    - link
+id: node.d_product.field_liqpay_link
+field_name: field_liqpay_link
+entity_type: node
+bundle: d_product
+label: 'Купить базу'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 2
+field_type: link

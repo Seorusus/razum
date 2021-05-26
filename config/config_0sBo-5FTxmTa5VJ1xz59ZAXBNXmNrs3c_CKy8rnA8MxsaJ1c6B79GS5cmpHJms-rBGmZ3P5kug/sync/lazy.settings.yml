@@ -1,5 +1,10 @@
 image_fields:
   media--d_image--field_media_image--default: '1'
+  node--d_product--field_d_product_media--full: '1'
+  node--d_product--field_d_product_media--d_small_box: '1'
+  node--d_product--field_d_product_media--single_conte: '1'
+  node--d_product--field_product_images_teaser--default: '1'
+  node--d_product--field_product_images_teaser--single_conte: '1'
 alter_tag:
   img: img
   iframe: '0'

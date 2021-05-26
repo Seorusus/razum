@@ -1,0 +1,29 @@
+uuid: 53e0f641-10d7-4aae-bda4-96db29f61797
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_call_category
+    - node.type.call_script
+    - taxonomy.vocabulary.tip_zvonka
+id: node.call_script.field_call_category
+field_name: field_call_category
+entity_type: node
+bundle: call_script
+label: 'Тип звонка'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tip_zvonka: tip_zvonka
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

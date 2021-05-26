@@ -1,0 +1,14 @@
+uuid: 788314a1-d20b-46ec-82a9-e49d7b3ab665
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.call_operator
+  module:
+    - user
+id: user_add_role_action.call_operator
+label: 'Добавьте роль Колл оператор выбранным пользователям'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: call_operator

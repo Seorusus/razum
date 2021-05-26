@@ -1,0 +1,20 @@
+uuid: 6b320186-ce4a-448e-93b7-bf4e5039c917
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.bases
+  module:
+    - path
+id: node.bases.path
+field_name: path
+entity_type: node
+bundle: bases
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

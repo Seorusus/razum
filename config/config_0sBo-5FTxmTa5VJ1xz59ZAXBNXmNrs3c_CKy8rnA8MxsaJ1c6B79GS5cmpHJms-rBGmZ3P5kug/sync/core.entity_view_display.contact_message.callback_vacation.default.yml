@@ -1,0 +1,60 @@
+uuid: 9315d3b0-30c9-4998-9f77-2fca70c02e02
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.callback_vacation
+    - field.field.contact_message.callback_vacation.field_notice
+    - field.field.contact_message.callback_vacation.field_resume
+    - field.field.contact_message.callback_vacation.field_telephone
+  module:
+    - file
+    - telephone
+id: contact_message.callback_vacation.default
+targetEntityType: contact_message
+bundle: callback_vacation
+mode: default
+content:
+  field_notice:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_resume:
+    weight: 3
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_telephone:
+    weight: 1
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  mail:
+    weight: -2
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  name:
+    weight: -3
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true
+  message: true
+  search_api_excerpt: true
+  subject: true

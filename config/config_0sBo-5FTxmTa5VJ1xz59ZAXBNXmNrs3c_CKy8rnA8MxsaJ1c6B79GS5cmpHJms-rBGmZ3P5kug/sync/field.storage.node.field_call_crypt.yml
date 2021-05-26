@@ -1,0 +1,19 @@
+uuid: 8ff9ae92-bca2-4127-874c-fcbfa2b68fe1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - faqfield
+    - node
+id: node.field_call_crypt
+field_name: field_call_crypt
+entity_type: node
+type: faqfield
+settings: {  }
+module: faqfield
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -9,7 +9,7 @@ dependencies:
 id: languagedropdownswitcher_2
 theme: droopler_subtheme
 region: secondary_menu
-weight: -7
+weight: -12
 provider: null
 plugin: 'language_dropdown_block:language_interface'
 settings:

@@ -21,6 +21,7 @@ default_value: {  }
 default_value_callback: ''
 settings:
   exclude:
+    single_conte: single_conte
     d_small_box: d_small_box
     teaser: teaser
   negate: 1

@@ -31,7 +31,7 @@ settings:
       label: 'Бесплатные звонки на 8-800'
     -
       value: lidogeneration
-      label: 'Создание и актуалзация баз данных'
+      label: Лидогенерация
     -
       value: telemarketing
       label: Телемаркетинг
@@ -55,7 +55,7 @@ settings:
       label: 'Организация call-центров'
     -
       value: email-processing
-      label: 'Обработка электронных обращений'
+      label: 'Обработка имейлов'
     -
       value: sms-direct
       label: SMS-рассылка

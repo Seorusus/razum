@@ -1,0 +1,35 @@
+uuid: cf28c3e0-2dd1-4174-afd6-4b01544b1149
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.get_consultation
+    - field.field.contact_message.get_consultation.field_telephone
+    - field.field.contact_message.get_consultation.field_time_sent
+  module:
+    - telephone
+id: contact_message.get_consultation.default
+targetEntityType: contact_message
+bundle: get_consultation
+mode: default
+content:
+  field_telephone:
+    weight: 1
+    settings:
+      placeholder: 'По какому номеру мы можем с вами связаться?'
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  field_time_sent: true
+  langcode: true
+  mail: true
+  message: true
+  preview: true
+  subject: true

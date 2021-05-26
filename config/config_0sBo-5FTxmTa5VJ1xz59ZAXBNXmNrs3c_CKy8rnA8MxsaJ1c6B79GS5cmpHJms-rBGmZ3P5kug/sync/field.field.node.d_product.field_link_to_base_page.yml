@@ -1,0 +1,25 @@
+uuid: 810ee761-e53f-4ee9-966d-170f337720dd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_base_page
+    - node.type.d_product
+  module:
+    - field_token_value
+id: node.d_product.field_link_to_base_page
+field_name: field_link_to_base_page
+entity_type: node
+bundle: d_product
+label: 'Link to base page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '[node:field_link_to_base_page:value]'
+default_value_callback: ''
+settings:
+  field_value: '[node:field_call_crypt]'
+  remove_empty: 1
+field_type: field_token_value

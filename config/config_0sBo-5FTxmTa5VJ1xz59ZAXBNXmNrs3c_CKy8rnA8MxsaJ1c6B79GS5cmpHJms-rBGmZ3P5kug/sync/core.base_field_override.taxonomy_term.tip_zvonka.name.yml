@@ -1,0 +1,18 @@
+uuid: be7b0454-5fdb-4140-a9aa-45a18cc3e050
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tip_zvonka
+id: taxonomy_term.tip_zvonka.name
+field_name: name
+entity_type: taxonomy_term
+bundle: tip_zvonka
+label: Название
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

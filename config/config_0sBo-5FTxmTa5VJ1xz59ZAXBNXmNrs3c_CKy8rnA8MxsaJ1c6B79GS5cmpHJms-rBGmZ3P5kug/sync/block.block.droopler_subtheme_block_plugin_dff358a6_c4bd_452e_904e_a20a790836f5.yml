@@ -14,7 +14,7 @@ provider: null
 plugin: social_media_block
 settings:
   id: social_media_block
-  label: 'Мы в Сети'
+  label: 'We are online'
   provider: d_social_media
   label_display: visible
   status: true

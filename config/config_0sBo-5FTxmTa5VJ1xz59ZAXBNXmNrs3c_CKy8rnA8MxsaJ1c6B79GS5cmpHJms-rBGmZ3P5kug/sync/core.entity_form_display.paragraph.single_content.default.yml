@@ -1,0 +1,34 @@
+uuid: 629c93ba-e59f-46c7-85c3-6a4241b56188
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.single_content.field_d_settings
+    - field.field.paragraph.single_content.field_reference_single_content
+    - paragraphs.paragraphs_type.single_content
+  module:
+    - d_p
+id: paragraph.single_content.default
+targetEntityType: paragraph
+bundle: single_content
+mode: default
+content:
+  field_d_settings:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: field_d_p_set_settings
+    region: content
+  field_reference_single_content:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

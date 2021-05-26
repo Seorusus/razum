@@ -1,0 +1,11 @@
+uuid: 89ded03a-69be-4cd3-9282-f94fe441dc67
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.get_consultation
+id: contact_message.get_consultation
+target_entity_type_id: contact_message
+target_bundle: get_consultation
+default_langcode: site_default
+language_alterable: false

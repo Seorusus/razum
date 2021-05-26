@@ -1,0 +1,55 @@
+uuid: c263bf8f-55f3-4018-92e6-fc4829f5f802
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.call_script.field_call_category
+    - field.field.node.call_script.field_call_crypt
+    - field.field.node.call_script.field_pdf
+    - node.type.call_script
+  module:
+    - faqfield
+    - pdf
+    - user
+id: node.call_script.default
+targetEntityType: node
+bundle: call_script
+mode: default
+content:
+  field_call_crypt:
+    weight: 102
+    label: hidden
+    settings:
+      active: 0
+      heightStyle: auto
+      event: click
+      animate:
+        duration: 200
+        easing: linear
+      collapsible: false
+    third_party_settings: {  }
+    type: faqfield_accordion
+    region: content
+  field_pdf:
+    weight: 103
+    label: hidden
+    settings:
+      keep_pdfjs: '1'
+      width: 130%
+      height: 1200px
+      page: ''
+      zoom: page-actual
+      custom_zoom: ''
+      pagemode: thumbs
+    third_party_settings: {  }
+    type: pdf_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_call_category: true
+  langcode: true
+  search_api_excerpt: true

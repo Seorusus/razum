@@ -1,0 +1,18 @@
+uuid: b35fae66-1dba-48fc-b1cf-3e7083de06b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.bases
+id: node.bases.metatag
+field_name: metatag
+entity_type: node
+bundle: bases
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,22 @@
+uuid: 227ab238-4895-4b58-8ce3-3eadd626fc8f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.call_script
+id: node.call_script.status
+field_name: status
+entity_type: node
+bundle: call_script
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

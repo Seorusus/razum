@@ -11,7 +11,7 @@ dependencies:
 id: lichnyykabinet
 theme: droopler_subtheme
 region: secondary_menu
-weight: -8
+weight: -13
 provider: null
 plugin: 'block_content:37d72fca-b610-4466-9cf6-1bb38dee1a64'
 settings:

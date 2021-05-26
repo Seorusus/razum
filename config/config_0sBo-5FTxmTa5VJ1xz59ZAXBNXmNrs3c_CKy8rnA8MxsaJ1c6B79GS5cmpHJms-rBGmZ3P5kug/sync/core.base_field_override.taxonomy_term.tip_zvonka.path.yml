@@ -1,0 +1,20 @@
+uuid: 182d23fa-2647-4bf4-9bf5-fc13a4f0bfec
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tip_zvonka
+  module:
+    - path
+id: taxonomy_term.tip_zvonka.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tip_zvonka
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

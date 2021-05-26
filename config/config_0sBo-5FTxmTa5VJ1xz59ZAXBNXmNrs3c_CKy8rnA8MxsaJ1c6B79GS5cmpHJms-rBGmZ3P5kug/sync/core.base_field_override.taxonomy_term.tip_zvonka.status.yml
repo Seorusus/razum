@@ -1,0 +1,22 @@
+uuid: 1185ac1c-ae2e-423a-a5fb-eba4ad5a648a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tip_zvonka
+id: taxonomy_term.tip_zvonka.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tip_zvonka
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

@@ -4,6 +4,12 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_d_p_reference_content
+    - node.type.bases
+    - node.type.blog_post
+    - node.type.call_script
+    - node.type.contact
+    - node.type.content_page
+    - node.type.d_product
     - paragraphs.paragraphs_type.d_p_reference_content
 _core:
   default_config_hash: UvffVu4D57j8BKdGCKtusQ-7SAC-ZM0IbUzRBI-w-Gg
@@ -20,9 +26,15 @@ default_value_callback: ''
 settings:
   handler: 'default:node'
   handler_settings:
-    target_bundles: null
+    target_bundles:
+      content_page: content_page
+      bases: bases
+      contact: contact
+      blog_post: blog_post
+      call_script: call_script
+      d_product: d_product
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: content_page
 field_type: entity_reference

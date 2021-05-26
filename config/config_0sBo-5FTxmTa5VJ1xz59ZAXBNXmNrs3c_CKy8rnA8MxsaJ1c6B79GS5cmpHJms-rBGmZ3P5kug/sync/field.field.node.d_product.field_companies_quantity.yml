@@ -1,0 +1,23 @@
+uuid: 14a4fd5c-070b-448c-af2a-9a550f41c08d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_companies_quantity
+    - node.type.d_product
+id: node.d_product.field_companies_quantity
+field_name: field_companies_quantity
+entity_type: node
+bundle: d_product
+label: 'Количество компаний в базе'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,25 @@
+uuid: ad42b62c-2d91-41e4-8005-49aaf15ee722
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.get_consultation
+    - field.storage.contact_message.field_time_sent
+  module:
+    - field_token_value
+id: contact_message.get_consultation.field_time_sent
+field_name: field_time_sent
+entity_type: contact_message
+bundle: get_consultation
+label: 'Время заполнения формы'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '[current-date:html_datetime] прошло времени [current-date:since]'
+default_value_callback: ''
+settings:
+  field_value: '[current-date:html_datetime]'
+  remove_empty: 0
+field_type: field_token_value

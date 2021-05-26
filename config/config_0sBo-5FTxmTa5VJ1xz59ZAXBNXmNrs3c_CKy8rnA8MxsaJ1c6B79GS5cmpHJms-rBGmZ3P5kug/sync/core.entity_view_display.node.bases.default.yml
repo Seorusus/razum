@@ -1,0 +1,30 @@
+uuid: 2dc1ef85-b207-4107-bc8a-2ab8f113ef30
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.bases.body
+    - node.type.bases
+  module:
+    - text
+    - user
+id: node.bases.default
+targetEntityType: node
+bundle: bases
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

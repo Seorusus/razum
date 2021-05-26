@@ -1,0 +1,8 @@
+uuid: 409c4e66-d9d5-48cd-bca2-218efed5772b
+langcode: ru
+status: true
+dependencies: {  }
+name: Рубрика
+vid: rubric
+description: ''
+weight: 0

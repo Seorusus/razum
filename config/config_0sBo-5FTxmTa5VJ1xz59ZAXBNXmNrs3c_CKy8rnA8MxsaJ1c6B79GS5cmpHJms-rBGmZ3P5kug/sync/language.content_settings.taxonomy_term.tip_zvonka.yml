@@ -1,0 +1,18 @@
+uuid: 2a5334ea-e1ae-4a0d-a409-348b73f9d56a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tip_zvonka
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.tip_zvonka
+target_entity_type_id: taxonomy_term
+target_bundle: tip_zvonka
+default_langcode: site_default
+language_alterable: false
