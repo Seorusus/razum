@@ -9,6 +9,7 @@ child-scripts:
   version: VERSION
   js:
     js/min/global.min.js: {}
+    js/blazy.min.js: {}
   dependencies:
     - core/jquery
     - core/jquery.once
